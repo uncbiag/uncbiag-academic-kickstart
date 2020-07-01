@@ -4,17 +4,9 @@ summary : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius
 weight: 10
 ---
 
-## ABOUT OUR JOURNY
+## UNC Biomedical Image Analysis Group
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et.dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet consectetur,
-adipisicing elit. Saepe ipsa illo quod veritatis, magni debitis fugiat dolore voluptates! Consequatur,
-aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perferendis sint optio similique.
-Et amet magni facilis vero corporis quos.
+The Biomedical Image Analysis Group at the University of North Carolina at Chapel Hill (UNC-biag) focuses on the design of computational algorithms to extract quantitative measures from biomedical data. While our emphasis is on image data (e.g., obtained via magnetic resonance imaging, computed tomography, or microscopy) our analyses also include clinical measures and genomics.
 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum, dolor sit amet consectetur
-adipisicing elit. Ipsum a, facere fugit error accusamus est officiis vero in, nostrum laboriosam corrupti
-explicabo, cumque repudiandae deleniti perspiciatis quae consectetur enim. Laboriosam!
-
+Our work is highly interdisciplinary and includes collaborators from a wide range of disciplines such as statistics, applied mathematics, radiology, surgery, and epidemiology. Consequently, we also publish in venues ranging from clinical journals, to medical conferences (such as MICCAI and IPMI), to computer vision conferences (such as CVPR and IPMI), to machine learning conferences (such as NeurIPS, ICML, and AAAI).
 								   
