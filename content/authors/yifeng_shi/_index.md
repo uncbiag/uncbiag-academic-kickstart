@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Marc Niethammer
+title: Yifeng Shi
 
 # Username (this should match the folder name)
 authors:
-- admin
+- yifeng_shi
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: Professor of Computer Science
+role: Graduate Student in Computer Science
 
 # Organizations/Affiliations
 organizations:
@@ -18,28 +18,16 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include image registration, image segmentation, shape analysis, machine learning, and biomedical applications.
+bio: My research is in machine learning. So far I have been focusing on machine learning approaches for set-valued data and approaches for clustering with side-information.
 
 interests:
-- Biomedical Image Computing
-- Image Registration
-- Image Segmentation
 - Machine Learning
 
 education:
   courses:
-  - course: PhD in Electrical and Computer Engineering
-    institution: Georgia Institute of Technology
-    year: 2004
-  - course: MSc in Applied Mathematics
-    institution: Georgia Institute of Technology
-    year: 2002
-  - course: Dipl.-Ing. im Engineering Cybernetics
-    institution: Universitaet Stuttgart
-    year: 2000
-  - course: MSc in Engineering Science and Mechanics
-    institution: Georgia Institute of Technology
-    year: 2002
+  - course: MSc in Statistics
+    institution: University of Chicago
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -70,7 +58,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Principal Investigator
+- Graduate Students
 ---
 
-Marc Niethammer is a professor of computer science at the University of North Carolina at Chapel Hill (UNC) with a joint appointment in the Biomedical Research Imaging Center (BRIC) at UNC. His research is in biomedical image analysis with a particular focus on methods for statistical shape analysis, image segmentation, deformable image registration, and machine learning.
+Yifeng Shi is a graduate student in computer science. He works on machine learning approaches for clustering and classification with breast cancer as an application focus.

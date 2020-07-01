@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Marc Niethammer
+title: Zhipeng Ding
 
 # Username (this should match the folder name)
 authors:
-- admin
+- zhipeng_ding
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: Professor of Computer Science
+role: Graduate Student in Computer Science
 
 # Organizations/Affiliations
 organizations:
@@ -18,28 +18,18 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include image registration, image segmentation, shape analysis, machine learning, and biomedical applications.
+bio: My research interests include image registration and machine learning.
 
 interests:
-- Biomedical Image Computing
 - Image Registration
-- Image Segmentation
+- Multi-atlas Segmentation
 - Machine Learning
 
 education:
   courses:
-  - course: PhD in Electrical and Computer Engineering
-    institution: Georgia Institute of Technology
-    year: 2004
-  - course: MSc in Applied Mathematics
-    institution: Georgia Institute of Technology
-    year: 2002
-  - course: Dipl.-Ing. im Engineering Cybernetics
-    institution: Universitaet Stuttgart
-    year: 2000
-  - course: MSc in Engineering Science and Mechanics
-    institution: Georgia Institute of Technology
-    year: 2002
+  - course: MSc in ???
+    institution: Zheijiang University
+    year: 20??
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -70,7 +60,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Principal Investigator
+- Graduate Students
 ---
 
-Marc Niethammer is a professor of computer science at the University of North Carolina at Chapel Hill (UNC) with a joint appointment in the Biomedical Research Imaging Center (BRIC) at UNC. His research is in biomedical image analysis with a particular focus on methods for statistical shape analysis, image segmentation, deformable image registration, and machine learning.
+Zhipeng Ding is a graduate student in computer science. He works on image segmentation, image registration, and multi-atlas segmentation approaches.
