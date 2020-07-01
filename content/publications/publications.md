@@ -70,3 +70,7 @@ subtitle = ""
 {{% alert note %}}
 Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
 {{% /alert %}}
+
+Automaticly generated publication lists can also be found on
+* [DBLP](https://dblp.uni-trier.de/pers/hd/n/Niethammer:Marc?q=marc%20niethammer) and
+* [Google scholar](https://scholar.google.com/citations?hl=en&user=KqtBi6MAAAAJ&view_op=list_works&sortby=pubdate).
