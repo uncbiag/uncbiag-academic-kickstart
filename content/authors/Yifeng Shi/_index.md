@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Peirong Liu
+title: Yifeng Shi
 
 # Username (this should match the folder name)
 authors:
-- peirong_liu
+- "Yifeng Shi"
 
 # Is this the primary user of the site?
 superuser: false
@@ -18,18 +18,15 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include perfusion image, data assimilation, and machine learning.
+bio: My research is in machine learning. So far I have been focusing on machine learning approaches for set-valued data and approaches for clustering with side-information.
 
 interests:
-- Image Registration
-- Data Assimilation
-- Perfusion Imaging
 - Machine Learning
 
 education:
   courses:
-  - course: MSc in Computer Science
-    institution: Add correct insttitution
+  - course: MSc in Statistics
+    institution: University of Chicago
     year: 2018
 
 # Social/Academic Networking
@@ -64,4 +61,4 @@ user_groups:
 - Graduate Students
 ---
 
-Peirong Liu is a graduate student in computer science. She works on perfusion imaging.
+Yifeng Shi is a graduate student in computer science. He works on machine learning approaches for clustering and classification with breast cancer as an application focus.

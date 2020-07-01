@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Zhenlin Xu
+title: Peirong Liu
 
 # Username (this should match the folder name)
 authors:
-- zhenlin_xu
+- "Peirong Liu"
 
 # Is this the primary user of the site?
 superuser: false
@@ -18,18 +18,19 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include image registration and machine learning.
+bio: My research interests include perfusion image, data assimilation, and machine learning.
 
 interests:
 - Image Registration
-- Image Segmentation
+- Data Assimilation
+- Perfusion Imaging
 - Machine Learning
 
 education:
   courses:
   - course: MSc in Computer Science
-    institution: University of Rochester
-    year: 2017
+    institution: Add correct insttitution
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -63,4 +64,4 @@ user_groups:
 - Graduate Students
 ---
 
-Zhenlin Xu is a graduate student in computer science. He works on deep learning approaches for image registration, image segmentation, and domain transfer.
+Peirong Liu is a graduate student in computer science. She works on perfusion imaging.

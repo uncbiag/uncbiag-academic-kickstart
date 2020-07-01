@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Yifeng Shi
+title: Zhenlin Xu
 
 # Username (this should match the folder name)
 authors:
-- yifeng_shi
+- "Zhenlin Xu"
 
 # Is this the primary user of the site?
 superuser: false
@@ -18,16 +18,18 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research is in machine learning. So far I have been focusing on machine learning approaches for set-valued data and approaches for clustering with side-information.
+bio: My research interests include image registration and machine learning.
 
 interests:
+- Image Registration
+- Image Segmentation
 - Machine Learning
 
 education:
   courses:
-  - course: MSc in Statistics
-    institution: University of Chicago
-    year: 2018
+  - course: MSc in Computer Science
+    institution: University of Rochester
+    year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -61,4 +63,4 @@ user_groups:
 - Graduate Students
 ---
 
-Yifeng Shi is a graduate student in computer science. He works on machine learning approaches for clustering and classification with breast cancer as an application focus.
+Zhenlin Xu is a graduate student in computer science. He works on deep learning approaches for image registration, image segmentation, and domain transfer.

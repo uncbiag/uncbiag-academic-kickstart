@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Zhipeng Ding
+title: Sahin Olut
 
 # Username (this should match the folder name)
 authors:
-- zhipeng_ding
+- "Sahin Olut"
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,14 +22,13 @@ bio: My research interests include image registration and machine learning.
 
 interests:
 - Image Registration
-- Multi-atlas Segmentation
 - Machine Learning
 
 education:
   courses:
-  - course: MSc in ???
-    institution: Zheijiang University
-    year: 20??
+  - course: BSc in Computer Science
+    institution: ITU
+    year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -63,4 +62,4 @@ user_groups:
 - Graduate Students
 ---
 
-Zhipeng Ding is a graduate student in computer science. He works on image segmentation, image registration, and multi-atlas segmentation approaches.
+Sahin Olut is a graduate student in computer science. He works on image registration.

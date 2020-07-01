@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Zhengyang Shen
+title: Lin Tian
 
 # Username (this should match the folder name)
 authors:
-- zhengyang_shen
+- "Lin Tian"
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,14 +22,13 @@ bio: My research interests include image registration and machine learning.
 
 interests:
 - Image Registration
-- Image Segmentation
 - Machine Learning
 
 education:
   courses:
-  - course: BSc in Computer Science
-    institution: Beihang University
-    year: 2017
+  - course: MSc in Computer Science
+    institution: Add correct insttitution
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -63,4 +62,4 @@ user_groups:
 - Graduate Students
 ---
 
-Zhengyang Shen is a graduate student in computer science. He works of fast deep learning approaches for image registration.
+Lin Tian is a graduate student in computer science. She works on lung image registration. 

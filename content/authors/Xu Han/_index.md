@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Sahin Olut
+title: Xu Han
 
 # Username (this should match the folder name)
 authors:
-- sahin_olut
+- "Xu Han"
 
 # Is this the primary user of the site?
 superuser: false
@@ -18,17 +18,17 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include image registration and machine learning.
+bio: My research interests include image registration for images with pathologies and machine learning.
 
 interests:
-- Image Registration
+- Registration for Images with Pathologies
 - Machine Learning
 
 education:
   courses:
-  - course: BSc in Computer Science
-    institution: ITU
-    year: 2019
+  - course: MSc in Computer Science
+    institution: Add correct insttitution
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -62,4 +62,4 @@ user_groups:
 - Graduate Students
 ---
 
-Sahin Olut is a graduate student in computer science. He works on image registration.
+Xu Han is a graduate student in computer science. He works on image registration approaches for images with pathologies.
