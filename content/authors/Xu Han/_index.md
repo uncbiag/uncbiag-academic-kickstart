@@ -16,7 +16,7 @@ role: Graduate Student in Computer Science
 organizations:
 - name: UNC Chapel Hill
   url: ""
-
+  
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include image registration for images with pathologies and machine learning.
 
@@ -26,9 +26,15 @@ interests:
 
 education:
   courses:
-  - course: MSc in Computer Science
-    institution: Add correct insttitution
-    year: 2018
+  - course: PhD in Computer Science
+    institution: UNC Chapel Hill
+    year: Expected 2020
+  - course: MSc in Electrical Engineering
+    institution: Northwestern University
+    year: 2012
+  - course: BEng in Electrical Engineering & Automation
+    institution: Zhejiang University
+    year: 2011
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -43,7 +49,7 @@ social:
 #  link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=KqtBi6MAAAAJ
+  link: https://scholar.google.com/citations?user=_4vyz-8AAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/uncbiag
