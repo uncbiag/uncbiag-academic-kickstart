@@ -28,8 +28,8 @@ interests:
 
 education:
   courses:
-  - course: MSc in Computer Science
-    institution: Add correct insttitution
+  - course: BSc in Mathematics
+    institution: Shanghai Univeristy
     year: 2018
 
 # Social/Academic Networking
@@ -45,7 +45,7 @@ social:
 #  link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=KqtBi6MAAAAJ
+  link: https://scholar.google.com/citations?user=x12zA5gAAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/uncbiag
@@ -56,7 +56,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "peirong@cs.unc.edu"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
