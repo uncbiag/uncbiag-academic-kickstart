@@ -339,7 +339,8 @@ approximate a simplified geodesic regression model to capture longitudinal brain
   abstract = {We introduce a region-specific diffeomorphic metric mapping (RDMM) registration approach. RDMM is non-parametric, estimating spatio-temporal velocity fields which parameterize the sought-for spatial transformation. Regularization of these velocity fields is necessary. In contrast to existing non-parametric registration approaches using a fixed spatially-invariant regularization, for example, the large displacement diffeomorphic metric mapping (LDDMM) model, our approach allows for spatially-varying regularization which is advected via the estimated spatio-temporal velocity field. Hence, not only can our model capture large displacements, it does so with a spatio-temporal regularizer that keeps track of how regions deform, which is a more natural mathematical formulation. We explore a family of RDMM registration approaches: 1) a registration model where regions with separate regularizations are pre-defined (e.g., in an atlas space or for distinct foreground and background regions), 2) a registration model where a general spatially-varying regularizer is estimated, and 3) a registration model where the spatially-varying regularizer is obtained via an end-to-end trained deep learning (DL) model. We provide a variational derivation of RDMM, showing that the model can assure diffeomorphic transformations in the continuum, and that LDDMM is a particular instance of RDMM. To evaluate RDMM performance we experiment 1) on synthetic 2D data and 2) on two 3D datasets: knee magnetic resonance images (MRIs) of the Osteoarthritis Initiative (OAI) and computed tomography images (CT) of the lung. Results show that our framework achieves comparable performance to state-of-the-art image registration approaches, while providing additional information via a learned spatio-temporal regularizer. Further, our deep learning approach allows for very fast RDMM and LDDMM estimations. Code is available at https://github.com/uncbiag/registration.}
 }
 
-@article{DBLP:journals/corr/abs-1903-08811,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/abs-1903-08811,
   author    = {Zhengyang Shen and
                Xu Han and
                Zhenlin Xu and
@@ -357,7 +358,8 @@ approximate a simplified geodesic regression model to capture longitudinal brain
   abstract = {We introduce an end-to-end deep-learning framework for 3D medical image registration. In contrast to existing approaches, our framework combines two registration methods: an affine registration and a vector momentum-parameterized stationary velocity field (vSVF) model. Specifically, it consists of three stages. In the first stage, a multi-step affine network predicts affine transform parameters. In the second stage, we use a U-Net-like network to generate a momentum, from which a velocity field can be computed via smoothing. Finally, in the third stage, we employ a self-iterable map-based vSVF component to provide a non-parametric refinement based on the current estimate of the transformation map. Once the model is trained, a registration is completed in one forward pass. To evaluate the performance, we conducted longitudinal and cross-subject experiments on 3D magnetic resonance images (MRI) of the knee of the Osteoarthritis Initiative (OAI) dataset. Results show that our framework achieves comparable performance to state-of-the-art medical image registration approaches, but it is much faster, with a better control of transformation regularity including the ability to produce approximately symmetric transformations, and combining affine as well as non-parametric registration.}
 }
 
-@article{DBLP:journals/corr/abs-1904-08465,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/abs-1904-08465,
   author    = {Zhenlin Xu and
                Marc Niethammer},
   title     = {DeepAtlas: Joint Semi-Supervised Learning of Image Registration and
@@ -374,7 +376,8 @@ approximate a simplified geodesic regression model to capture longitudinal brain
   abstract = {Deep convolutional neural networks (CNNs) are state-of-theart for semantic image segmentation, but typically require many labeled training samples. Obtaining 3D segmentations of medical images for supervised training is difficult and labor intensive. Motivated by classical approaches for joint segmentation and registration we therefore propose a deep learning framework that jointly learns networks for image registration and image segmentation. In contrast to previous work on deep unsupervised image registration, which showed the benefit of weak supervision via image segmentations, our approach can use existing segmentations when available and computes them via the segmentation network otherwise, thereby providing the same registration benefit. Conversely, segmentation network training benefits from the registration, which essentially provides a realistic form of data augmentation. Experiments on knee and brain 3D magnetic resonance (MR) images show that our approach achieves large simultaneous improvements of segmentation and registration accuracy (over independently trained networks) and allows training high-quality models with very limited training data. Specifically, in a one-shot-scenario (with only one manually labeled image) our approach increases Dice scores (\%) over an unsupervised registration network by 2.7 and 1.8 on the knee and brain images respectively.}
 }
 
-@article{DBLP:journals/corr/abs-1904-08963,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/abs-1904-08963,
   author    = {Zhipeng Ding and
                Xu Han and
                Marc Niethammer},
@@ -391,7 +394,8 @@ approximate a simplified geodesic regression model to capture longitudinal brain
   abstract = {Deep learning (DL) approaches are state-of-the-art for many medical image segmentation tasks. They offer a number of advantages: they can be trained for specific tasks, computations are fast at test time, and segmentation quality is typically high. In contrast, previously popular multi-atlas segmentation (MAS) methods are relatively slow (as they rely on costly registrations) and even though sophisticated label fusion strategies have been proposed, DL approaches generally outperform MAS. In this work, we propose a DL-based label fusion strategy (VoteNet) which locally selects a set of reliable atlases whose labels are then fused via plurality voting. Experiments on 3D brain MRI data show that by selecting a good initial atlas set MAS with VoteNet significantly outperforms a number of other label fusion strategies as well as a direct DL segmentation approach. We also provide an experimental analysis of the upper performance bound achievable by our method. While unlikely achievable in practice, this bound suggests room for further performance improvements. Lastly, to address the runtime disadvantage of standard MAS, all our results make use of a fast DL registration approach.}
 }
 
-@article{DBLP:journals/corr/abs-1904-09524,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/abs-1904-09524,
   author    = {Marc Niethammer and
                Roland Kwitt and
                Fran{\c{c}}ois{-}Xavier Vialard},
@@ -425,7 +429,8 @@ approximate a simplified geodesic regression model to capture longitudinal brain
   abstract = {We propose an approach to learning with graph-structured data in the problem domain of graph classification. In particular, we present a novel type of readout operation to aggregate node features into a graph-level representation. To this end, we leverage persistent homology computed via a real-valued, learnable, filter function. We establish the theoretical foundation for differentiating through the persistent homology computation. Empirically, we show that this type of readout operation compares favorably to previous techniques, especially when the graph connectivity structure is informative for the learning problem.}
 }
 
-@article{DBLP:journals/corr/abs-1906-00139,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/abs-1906-00139,
   author    = {Zhengyang Shen and
                Fran{\c{c}}ois{-}Xavier Vialard and
                Marc Niethammer},
@@ -442,7 +447,8 @@ approximate a simplified geodesic regression model to capture longitudinal brain
   abstract = {We introduce a region-specific diffeomorphic metric mapping (RDMM) registration approach. RDMM is non-parametric, estimating spatio-temporal velocity fields which parameterize the sought-for spatial transformation. Regularization of these velocity fields is necessary. In contrast to existing non-parametric registration approaches using a fixed spatially-invariant regularization, for example, the large displacement diffeomorphic metric mapping (LDDMM) model, our approach allows for spatially-varying regularization which is advected via the estimated spatio-temporal velocity field. Hence, not only can our model capture large displacements, it does so with a spatio-temporal regularizer that keeps track of how regions deform, which is a more natural mathematical formulation. We explore a family of RDMM registration approaches: 1) a registration model where regions with separate regularizations are pre-defined (e.g., in an atlas space or for distinct foreground and background regions), 2) a registration model where a general spatially-varying regularizer is estimated, and 3) a registration model where the spatially-varying regularizer is obtained via an end-to-end trained deep learning (DL) model. We provide a variational derivation of RDMM, showing that the model can assure diffeomorphic transformations in the continuum, and that LDDMM is a particular instance of RDMM. To evaluate RDMM performance we experiment 1) on synthetic 2D data and 2) on two 3D datasets: knee magnetic resonance images (MRIs) of the Osteoarthritis Initiative (OAI) and computed tomography images (CT) of the lung. Results show that our framework achieves comparable performance to state-of-the-art image registration approaches, while providing additional information via a learned spatio-temporal regularizer. Further, our deep learning approach allows for very fast RDMM and LDDMM estimations. Code is available at https://github.com/uncbiag/registration.}
 }
 
-@article{DBLP:journals/corr/abs-1906-09003,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/abs-1906-09003,
   author    = {Christoph D. Hofer and
                Roland Kwitt and
                Mandar Dixit and
@@ -751,7 +757,8 @@ approximate a simplified geodesic regression model to capture longitudinal brain
   abstract = {Attributed network data is becoming increasingly common across fields, as we are often equipped with information about nodes in addition to their pairwise connectivity patterns. This extra information can manifest as a classification, or as a multidimensional vector of features. Recently developed methods that seek to extend community detection approaches to attributed networks have explored how to most effectively combine connectivity and attribute information to identify quality communities. These methods often rely on some assumption of the dependency relationships between attributes and connectivity. In this work, we seek to develop a statistical test to assess whether node attributes align with network connectivity. The objective is to quantitatively evaluate whether nodes with similar connectivity patterns also have similar attributes. To address this problem, we use a node sampling and label propagation approach. We apply our method to several synthetic examples that explore how network structure and attribute characteristics affect the empirical p-value computed by our method. Finally, we apply the test to a network generated from a single cell mass cytometry (CyTOF) dataset and show that our test can identify markers associated with distinct sub populations of single cells.}
 }
 
-@article{DBLP:journals/corr/abs-1806-05083,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/abs-1806-05083,
   author    = {Heather D. Couture and
                J. S. Marron and
                Charles M. Perou and
@@ -1058,7 +1065,8 @@ approximate a simplified geodesic regression model to capture longitudinal brain
   abstract = {This paper presents a novel mathematical framework for representing uncertainty in large deformation diffeomorphic image registration. The Bayesian posterior distribution over the deformations aligning a moving and a fixed image is approximated via a variational formulation. A stochastic differential equation (SDE) modeling the deformations as the evolution of a time-varying velocity field leads to a prior density over deformations in the form of a Gaussian process. This permits estimating the full posterior distribution in order to represent uncertainty, in contrast to methods in which the posterior is approximated via Monte Carlo sampling or maximized in maximum a-posteriori (MAP) estimation. The framework is demonstrated in the case of landmark-based image registration, including simulated data and annotated pre and intra-operative 3D images.}
 }
 
-@article{DBLP:journals/corr/YangKSN17,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/YangKSN17,
   author    = {Xiao Yang and
                Roland Kwitt and
                Martin Styner and
@@ -1076,7 +1084,8 @@ approximate a simplified geodesic regression model to capture longitudinal brain
   abstract = {We introduce a deep encoder-decoder architecture for image deformation prediction from multimodal images. Specifically, we design an image-patch-based deep network that jointly (i) learns an image similarity measure and (ii) the relationship between image patches and deformation parameters. While our method can be applied to general image registration formulations, we focus on the Large Deformation Diffeomorphic Metric Mapping (LDDMM) registration model. By predicting the initial momentum of the shooting formulation of LDDMM, we preserve its mathematical properties and drastically reduce the computation time, compared to optimizationbased approaches. Furthermore, we create a Bayesian probabilistic version of the network that allows evaluation of registration uncertainty via sampling of the network at test time. We evaluate our method on a 3D brain MRI dataset using both T1- and T2-weighted images. Our experiments show that our method generates accurate predictions and that learning the similarity measure leads to more consistent registrations than relying on generic multimodal image similarity measures, such as mutual information. Our approach is an order of magnitude faster than optimization-based LDDMM.}
 }
 
-@article{DBLP:journals/corr/YangKN17,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/YangKN17,
   author    = {Xiao Yang and
                Roland Kwitt and
                Marc Niethammer},
@@ -1094,7 +1103,8 @@ approximate a simplified geodesic regression model to capture longitudinal brain
   abstract = {This paper introduces Quicksilver, a fast deformable image registration method. Quicksilver registration for image-pairs works by patch-wise prediction of a deformation model based directly on image appearance. A deep encoder-decoder network is used as the prediction model. While the prediction strategy is general, we focus on predictions for the Large Deformation Diffeomorphic Metric Mapping (LDDMM) model. Specifically, we predict the momentum-parameterization of LDDMM, which facilitates a patch-wise prediction strategy while maintaining the theoretical properties of LDDMM, such as guaranteed diffeomorphic mappings for sufficiently strong regularization. We also provide a probabilistic version of our prediction network which can be sampled during the testing time to calculate uncertainties in the predicted deformations. Finally, we introduce a new correction network which greatly increases the prediction accuracy of an already existing prediction network. We show experimental results for uni-modal atlas-to-image as well as uni-/multimodal image-to-image registrations. These experiments demonstrate that our method accurately predicts registrations obtained by numerical optimization, is very fast, achieves state-of-the-art registration results on four standard validation datasets, and can jointly learn an image similarity measure. Quicksilver is freely available as an open-source software.}
 }
 
-@article{DBLP:journals/corr/HanYAKN17,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/HanYAKN17,
   author    = {Xu Han and
                Xiao Yang and
                Stephen R. Aylward and
@@ -1132,7 +1142,8 @@ approximate a simplified geodesic regression model to capture longitudinal brain
   abstract = {Community detection is a commonly used technique for identifying groups in a network based on similarities in connectivity patterns. To facilitate community detection in large networks, we recast the network as a smaller network of ‘super nodes’, where each super node comprises one or more nodes of the original network. We can then use this super node representation as the input into standard community detection algorithms. To define the seeds, or centers, of our super nodes, we apply the ‘CoreHD’ ranking, a technique applied in network dismantling and decycling problems. We test our approach through the analysis of two common methods for community detection: modularity maximization with the Louvain algorithm and maximum likelihood optimization for fitting a stochastic block model. Our results highlight that applying community detection to the compressed network of super nodes is significantly faster while successfully producing partitions that are more aligned with the local network connectivity and more stable across multiple (stochastic) runs within and between community detection algorithms, yet still overlap well with the results obtained using the full network.}
 }
 
-@article{DBLP:journals/corr/HoferKNU17,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/HoferKNU17,
   author    = {Christoph D. Hofer and
                Roland Kwitt and
                Marc Niethammer and
@@ -1201,7 +1212,8 @@ Alzheimer's disease.}
   abstract = {Brain extraction from 3D medical images is a common pre-processing step. A variety of approaches exist, but they are frequently only designed to perform brain extraction from images without strong pathologies. Extracting the brain from images exhibiting strong pathologies, for example, the presence of a brain tumor or of a traumatic brain injury (TBI), is challenging. In such cases, tissue appearance may substantially deviate from normal tissue appearance and hence violates algorithmic assumptions for standard approaches to brain extraction; consequently, the brain may not be correctly extracted. This paper proposes a brain extraction approach which can explicitly account for pathologies by jointly modeling normal tissue appearance and pathologies. Specifically, our model uses a threepart image decomposition: (1) normal tissue appearance is captured by principal component analysis (PCA), (2) pathologies are captured via a total variation term, and (3) the skull and surrounding tissue is captured by a sparsity term. Due to its convexity, the resulting decomposition model allows for efficient optimization. Decomposition and image registration steps are alternated to allow statistical modeling of normal tissue appearance in a fixed atlas coordinate system. As a beneficial side effect, the decomposition model allows for the identification of potentially pathological areas and the reconstruction of a quasi-normal image in atlas space. We demonstrate the effectiveness of our approach on four datasets: the publicly available IBSR and LPBA40 datasets which show normal image appearance, the BRATS dataset containing images with brain tumors, and a dataset containing clinical TBI images. We compare the performance with other popular brain extraction models: ROBEX, BEaST, MASS, BET, BSE and a recently proposed deep learning approach. Our model performs better than these competing approaches on all four datasets. Specifically, our model achieves the best median (97.11) and mean (96.88) Dice scores over all datasets. The two best performing competitors, ROBEX and MASS, achieve scores of 96.23/95.62 and 96.67/94.25 respectively. Hence, our approach is an effective method for high quality brain extraction for a wide variety of images.}
 }
 
-@article{DBLP:journals/corr/abs-1711-05766,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/abs-1711-05766,
   author    = {Zhipeng Ding and
                Greg M. Fleishman and
                Xiao Yang and
@@ -1417,7 +1429,8 @@ Alzheimer's disease.}
   abstract = {Endoscopy enables high resolution visualization of tissue texture and is a critical step in many clinical workflows, including diagnosis and treatment planning for cancers in the nasopharynx. However, an endoscopic video does not provide 3D spatial information, making it difficult to use in tumor localization, and it is inefficient to review. We introduce a pipeline for automatically reconstructing a textured 3D surface model, which we call an endoscopogram, from multiple 2D endoscopic video frames. Our pipeline first reconstructs a partial 3D surface model for each input individual 2D frame. In the next step (which is the focus of this paper), we generate a single high-quality 3D surface model using a groupwise registration approach that fuses multiple, partially overlapping, incomplete and deformed surface models together. We generate endoscopograms from synthetic, phantom, and patient data and show that our registration approach can account for tissue deformations and reconstruction inconsistency across endoscopic video frames.}
 }
 
-@article{DBLP:journals/corr/YangKN16,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/YangKN16,
   author    = {Xiao Yang and
                Roland Kwitt and
                Marc Niethammer},
@@ -1434,7 +1447,8 @@ Alzheimer's disease.}
   abstract = {We present a method to predict image deformations based on patch-wise image appearance. Specifically, we design a patch-based deep encoder-decoder network which learns the pixel/voxel-wise mapping between image appearance and registration parameters. Our approach can predict general deformation parameterizations, however, we focus on the large deformation diffeomorphic metric mapping (LDDMM) registration model. By predicting the LDDMM momentum-parameterization we retain the desirable theoretical properties of LDDMM, while reducing computation time by orders of magnitude: combined with patch pruning, we achieve a 1500x/66x speed up compared to GPU-based optimization for 2D/3D image registration. Our approach has better prediction accuracy than predicting deformation or velocity fields and results in diffeomorphic transformations. Additionally, we create a Bayesian probabilistic version of our network, which allows evaluation of deformation field uncertainty through Monte Carlo sampling using dropout at test time. We show that deformation uncertainty highlights areas of ambiguous deformations. We test our method on the OASIS brain image dataset in 2D and 3D.}
 }
 
-@article{DBLP:journals/corr/DixitKNV16,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/DixitKNV16,
   author    = {Mandar Dixit and
                Roland Kwitt and
                Marc Niethammer and
@@ -1734,7 +1748,8 @@ Alzheimer's disease.}
   abstract = {This book constitutes the thoroughly refereed post-conference proceedings of the Third International Workshop on Spatio-temporal Image Analysis for Longitudinal and Time-Series Image Data, STIA 2014, held in conjunction with MICCAI 2014 in Boston, MA, USA, in September 2014. The 7 papers presented in this volume were carefully reviewed and selected from 15 submissions. They are organized in topical sections named: longitudinal registration and shape modeling, longitudinal modeling, reconstruction from longitudinal data, and 4D image processing.}
 }
 
-@article{DBLP:journals/corr/NiethammerPJW15,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/NiethammerPJW15,
   author    = {Marc Niethammer and
                Kilian M. Pohl and
                Firdaus Janoos and
@@ -1753,7 +1768,8 @@ Alzheimer's disease.}
   abstract = {Segmentation is a fundamental task for extracting semantically meaningful regions from an image. The goal of segmentation algorithms is to accurately assign object labels to each image location. However, image-noise, shortcomings of algorithms, and image ambiguities cause uncertainty in label assignment. Estimating the uncertainty in label assignment is important in multiple application domains, such as segmenting tumors from medical images for radiation treatment planning. One way to estimate these uncertainties is through the computation of posteriors of Bayesian models, which is computationally prohibitive for many practical applications. On the other hand, most computationally efficient methods fail to estimate label uncertainty. We therefore propose in this paper the Active Mean Fields (AMF) approach, a technique based on Bayesian modeling that uses a mean-field approximation to efficiently compute a segmentation and its corresponding uncertainty. Based on a variational formulation, the resulting convex model combines any label-likelihood measure with a prior on the length of the segmentation boundary. A specific implementation of that model is the Chan–Vese segmentation model (CV), in which the binary segmentation task is defined by a Gaussian likelihood and a prior regularizing the length of the segmentation boundary. Furthermore, the Euler–Lagrange equations derived from the AMF model are equivalent to those of the popular Rudin-Osher-Fatemi (ROF) model for image denoising. Solutions to the AMF model can thus be implemented by directly utilizing highlyefficient ROF solvers on log-likelihood ratio fields. We qualitatively assess the approach on synthetic data as well as on real natural and medical images. For a quantitative evaluation, we apply our approach to the icgbench dataset.}
 }
 
-@article{DBLP:journals/corr/HongSKVN15,
+# commented out as already included as regular paper
+article{DBLP:journals/corr/HongSKVN15,
   author    = {Yi Hong and
                Nikhil Singh and
                Roland Kwitt and

@@ -1,0 +1,12 @@
+---
+title: "Stochastic Block Models with Multiple Continuous Attributes"
+date: 2018-01-01
+publishDate: 2020-07-02T21:36:10.878999Z
+authors: ["Natalie Stanley", "Thomas Bonacci", "Roland Kwitt", "Marc Niethammer", "Peter J. Mucha"]
+publication_types: ["2"]
+abstract: "The stochastic block model (SBM) is a probabilistic model for community structure in networks. Typically, only the adjacency matrix is used to perform SBM parameter inference. In this paper, we consider circumstances in which nodes have an associated vector of continuous attributes that are also used to learn the node-to-community assignments and corresponding SBM parameters. Our model assumes that the attributes associated with the nodes in a network’s community can be described by a common multivariate Gaussian model. In this augmented, attributed SBM, the objective is to simultaneously learn the SBM connectivity probabilities with the multivariate Gaussian parameters describing each community. While there are recent examples in the literature that combine connectivity and attribute information to inform community detection, our model is the first augmented stochastic block model to handle multiple continuous attributes. This provides the flexibility in biological data to, for example, augment connectivity information with continuous measurements from multiple experimental modalities. Because the lack of labeled network data often makes community detection results difficult to validate, we highlight the usefulness of our model for two network prediction tasks: link prediction and collaborative filtering. As a result of fitting this attributed stochastic block model, one can predict the attribute vector or connectivity patterns for a new node in the event of the complementary source of information (connectivity or attributes, respectively). We also highlight two biological examples where the attributed stochastic block model provides satisfactory performance in the link prediction and collaborative filtering tasks."
+featured: false
+publication: "*CoRR*"
+url_pdf: "http://arxiv.org/abs/1803.02726"
+---
+
