@@ -3,7 +3,7 @@
 title: Marc Niethammer
 
 # Username (this should match the folder name)
-authors:
+authors: 
 - "Marc Niethammer"
 
 # Is this the primary user of the site?
@@ -77,4 +77,4 @@ user_groups:
 
 Marc Niethammer is a professor of computer science at the University of North Carolina at Chapel Hill (UNC) with a joint appointment in the Biomedical Research Imaging Center (BRIC) at UNC. His research is in biomedical image analysis with a particular focus on methods for statistical shape analysis, image segmentation, deformable image registration, and machine learning.
 
-[View my full profile]({{< ref "/individual_user_pages/marc_niethammer/index.md" >}})
+[View my full profile]({{< ref "/individual_user_pages/marc-niethammer/index.md" >}})
