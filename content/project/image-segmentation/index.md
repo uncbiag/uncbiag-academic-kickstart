@@ -43,13 +43,13 @@ slides: ""
 
 ---
 
-We have worked on a number of different general methods for image segmentation <a href="#znf09">[znf09]</a> <a href="#dny09">[dny09]</a> with a recent focus on segmentation methods based on convex relaxations which incorporate domain knowledge (for example in the form of encouraging directed orientation transitions <a href="#zsf09">[zsf09]</a> <a href="#szn10">[szn10]</a> <a href="#szs10">[szs10]</a>. We have also devised segmentation methods for the segmentations of fiber bundles from diffusion weighted images <a href="#nzm09">[nzm09]</a> as well as a method to extract connectivity information from diffusion tensor images <a href="#nbz10">[nbz10]</a> and have most recently explored a segmentation method which can impose constraints on the segmentation area <a href="#nz13">[nz13]</a>.
+We have worked on a number of different general methods for image segmentation {{<cite "znf09">}} {{<cite "dny09">}} with a recent focus on segmentation methods based on convex relaxations which incorporate domain knowledge (for example in the form of encouraging directed orientation transitions {{<cite "zsf09">}} {{<cite "szn10">}} {{<cite "ssz10">}}. We have also devised segmentation methods for the segmentations of fiber bundles from diffusion weighted images {{<cite "nzm09">}} as well as a method to extract connectivity information from diffusion tensor images {{<cite "nbz10">}} and have most recently explored a segmentation method which can impose constraints on the segmentation area {{<cite "nz13">}}.
 
-{{<cite "/publication/dblp-confcvpr-zach-nf-09" "znf09" 2>}}
-{{<cite "/publication/dblp-confbmvc-dambreville-nyt-07" "dny09" 2>}}
-{{<cite "/publication/dblp-confdagm-zach-sn-09" "zsf09" 2>}}
-{{<cite "/publication/dblp-confisbi-shan-zn-10" "szn10" 2>}}
-{{<cite "/publication/dblp-confmiip-shan-zscn-10" "szs10" 2>}}
-{{<cite "/publication/dblp-journalsneuroimage-niethammer-zmt-09" "nzm09" 2>}}
-{{<cite "/publication/dblp-confmiar-niethammer-bzsmss-10" "nbz10" 2>}}
-{{<cite "/publication/dblp-journalsmia-niethammer-z-13" "nz13" 2>}}
+{{<putbib "/publication/dblp-confcvpr-zach-nf-09" "znf09" 2>}}
+{{<putbib "/publication/dblp-confbmvc-dambreville-nyt-07" "dny09" 2>}}
+{{<putbib "/publication/dblp-confdagm-zach-sn-09" "zsf09" 2>}}
+{{<putbib "/publication/dblp-confisbi-shan-zn-10" "szn10" 2>}}
+{{<putbib "/publication/dblp-confmiip-shan-zscn-10" "szs10" 2>}}
+{{<putbib "/publication/dblp-journalsneuroimage-niethammer-zmt-09" "nzm09" 2>}}
+{{<putbib "/publication/dblp-confmiar-niethammer-bzsmss-10" "nbz10" 2>}}
+{{<putbib "/publication/dblp-journalsmia-niethammer-z-13" "nz13" 2>}}

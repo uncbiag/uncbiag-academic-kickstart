@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Image Registration"
-summary: "We have developed various deformable image registration approaches."
-authors: []
-tags: ["Image Registration"]
+title: "easyreg"
+summary: ""
+authors: ["Zhengyang Shen"]
+tags: []
 categories: []
-date: 2020-07-01T03:14:43-10:00
+date: 2020-07-03T07:05:00-10:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -27,7 +27,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
+url_code: "https://github.com/uncbiag/easyreg"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -39,4 +39,11 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-We have developed various different image registration approaches.
+EasyReg is an extension that builds on Mermaid, providing a simple interface to Mermaid and other popluar registration packages.
+
+The currently supported methods include Mermaid-optimization (i.e., optimization-based registration) and Mermaid-network (i.e., deep network-based registration methods using the mermaid deformation models, like SVF, LDDMM, RDMM...).
+We also added some supports on [ANTsPy](https://github.com/ANTsX/ANTsPy), [NiftyReg](http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg) and Demons(embedded in [SimpleITK](http://www.simpleitk.org/SimpleITK/resources/software.html)).
+
+The EasyReg repository can be found here:
+https://github.com/uncbiag/easyreg
+

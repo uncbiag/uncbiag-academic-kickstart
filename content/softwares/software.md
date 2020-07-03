@@ -5,12 +5,12 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "Projects"
+title = "Software"
 subtitle = ""
 
 [content]
   # Page type to display. E.g. project.
-  page_type = "project"
+  page_type = "software"
   
   # Filter toolbar (optional).
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
@@ -36,26 +36,6 @@ subtitle = ""
   [[content.filter_button]]
     name = "Image Segmentation"
     tag = "Image Segmentation"
-
-  [[content.filter_button]]
-    name = "Lung"
-    tag = "Lung"
-
-  [[content.filter_button]]
-    name = "Brain"
-    tag = "Brain"
-
-  [[content.filter_button]]
-    name = "Knee"
-    tag = "Knee"
-
-  [[content.filter_button]]
-    name = "Breast"
-    tag = "Breast"
-
-  [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -99,3 +79,4 @@ subtitle = ""
  css_class = ""
 +++
 
+We open-sourced a variety of software packages. Many of them focusing on image registration.
