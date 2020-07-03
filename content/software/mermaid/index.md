@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Image Registration"
-summary: "We have developed various deformable image registration approaches."
-authors: []
-tags: ["Image Registration"]
+title: "Mermaid"
+summary: ""
+authors: ["Marc Niethammer", "Zhengyang Shen"]
+tags: []
 categories: []
-date: 2020-07-01T03:14:43-10:00
+date: 2020-07-03T07:05:00-10:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -27,7 +27,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
+url_code: "https://github.com/uncbiag/mermaid"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -39,4 +39,9 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-We have developed various different image registration approaches.
+### Mermaid: iMagE Registration via autoMAtIc Differentiation
+
+Mermaid is a registration toolkit making use of automatic differentiation for rapid prototyping. It includes various image registration models. In particular, stationary velocity field models (both based on velocity fields and momentum fields), scalar vector momentum Large Displacement Diffeomorphic Metric Mapping (LDDMM) models as well as the more generalized Region-specific Diffeomorphic Metric Mapping model (RDMM).
+
+The Mermaid repository can be found here:
+https://github.com/uncbiag/mermaid

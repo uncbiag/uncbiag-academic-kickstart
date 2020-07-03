@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Image Registration"
-summary: "We have developed various deformable image registration approaches."
+title: "{{ replace .Name "-" " " | title }}"
+summary: ""
 authors: []
-tags: ["Image Registration"]
+tags: []
 categories: []
-date: 2020-07-01T03:14:43-10:00
+date: {{ .Date }}
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -39,4 +39,3 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-We have developed various different image registration approaches.
