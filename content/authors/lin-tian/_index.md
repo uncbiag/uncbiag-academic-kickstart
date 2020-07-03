@@ -27,8 +27,12 @@ interests:
 education:
   courses:
   - course: MSc in Computer Science
-    institution: Add correct insttitution
-    year: 2018
+    institution: University of Southern California
+    year: 2012
+  - course: Bs in Software Engineering
+    institution: Huazhong University of Science and Technology
+    year: 2010
+  
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -62,4 +66,6 @@ user_groups:
 - Graduate Students
 ---
 
-Lin Tian is a graduate student in computer science. She works on lung image registration. 
+I am a second year graduate student in computer science at University of North Carolina at Chapel Hill under supervision of [Marc Niethammer]({{<ref "/individual_user_pages/marc-niethammer/index.md">}}).  I am interested in deformable image registration models and exploring the sweet point where image registration meets machine learning. Currently, I am working on lung registration.
+
+[Personal website](https://tina-lintian.github.io/)
