@@ -73,10 +73,14 @@ email: ""
 user_groups:
 - Principal Investigator
 
-# My newest publication is [here]({{<ref "/publication/dblp-journalscorrabs-2006-10330/index.md" >}})
-
 ---
 
 Marc Niethammer is a professor of computer science at the University of North Carolina at Chapel Hill (UNC) with a joint appointment in the Biomedical Research Imaging Center (BRIC) at UNC. His research is in biomedical image analysis with a particular focus on methods for statistical shape analysis, image segmentation, deformable image registration, and machine learning.
 
 [View my full profile]({{< ref "/individual_user_pages/marc-niethammer/index.md" >}})
+
+
+
+
+
+
