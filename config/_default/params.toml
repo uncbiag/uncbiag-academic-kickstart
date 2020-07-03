@@ -88,23 +88,23 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "mn@cs.unc.edu"
-phone = "919.590.6149"
+email = ""
+phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Campus Box 3175", city = "Chapel Hill", region = "NC", postcode = "27599-3175", country = "United States", country_code = "US"}
+address = {street = "", city = "", region = "", postcode = "", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "35.909837", longitude = "-79.053120"}
+coordinates = {latitude = "0", longitude = "0"}
 
 # Directions for visitors to locate you.
-directions = "236 Fred Brooks Building (FB236)"
+directions = ""
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["by email appointment"]
+office_hours = [""]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 # appointment_url = "https://calendly.com"
