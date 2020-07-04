@@ -4,7 +4,7 @@
 title: "Mermaid"
 summary: ""
 authors: ["Marc Niethammer", "Zhengyang Shen"]
-tags: []
+tags: ["Image Registration"]
 categories: []
 date: 2020-07-03T07:05:00-10:00
 

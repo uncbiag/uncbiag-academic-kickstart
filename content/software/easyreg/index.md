@@ -4,7 +4,7 @@
 title: "easyreg"
 summary: ""
 authors: ["Zhengyang Shen"]
-tags: []
+tags: ["Image Registration", "Deep Learning"]
 categories: []
 date: 2020-07-03T07:05:00-10:00
 
