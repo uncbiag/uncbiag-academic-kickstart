@@ -1,8 +1,21 @@
----
-title: "About Us"
-summary : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
-weight: 10
----
++++
+# Tag Cloud widget.
+widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 10  # Order that this section will appear.
+
+title = "About Us"
+subtitle = ""
+
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["20px", "0", "20px", "0"]
+
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
++++
 
 ## UNC Biomedical Image Analysis Group
 
