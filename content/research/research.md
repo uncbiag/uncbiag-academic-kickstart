@@ -27,35 +27,31 @@ subtitle = ""
   
   [[content.filter_button]]
     name = "Deep Learning"
-    tag = "Deep Learning"
+    tag = "deep learning"
 
   [[content.filter_button]]
     name = "Image Registration"
-    tag = "Image Registration"
+    tag = "registration"
 
   [[content.filter_button]]
     name = "Image Segmentation"
-    tag = "Image Segmentation"
+    tag = "segmentation"
 
   [[content.filter_button]]
     name = "Lung"
-    tag = "Lung"
+    tag = "lung"
 
   [[content.filter_button]]
     name = "Brain"
-    tag = "Brain"
+    tag = "brain"
 
   [[content.filter_button]]
     name = "Knee"
-    tag = "Knee"
+    tag = "knee"
 
   [[content.filter_button]]
     name = "Breast"
-    tag = "Breast"
-
-  [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
+    tag = "breast"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

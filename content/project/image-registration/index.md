@@ -4,7 +4,7 @@
 title: "Image Registration"
 summary: "We have developed various deformable image registration approaches."
 authors: []
-tags: ["Image Registration"]
+tags: ["registration"]
 categories: []
 date: 2020-07-01T03:14:43-10:00
 

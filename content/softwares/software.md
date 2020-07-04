@@ -27,15 +27,15 @@ subtitle = ""
   
   [[content.filter_button]]
     name = "Deep Learning"
-    tag = "Deep Learning"
+    tag = "deep learning"
 
   [[content.filter_button]]
     name = "Image Registration"
-    tag = "Image Registration"
+    tag = "registration"
 
   [[content.filter_button]]
     name = "Image Segmentation"
-    tag = "Image Segmentation"
+    tag = "segmentation"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

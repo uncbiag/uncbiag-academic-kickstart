@@ -4,7 +4,7 @@
 title: "Image Segmentation"
 summary: "We have developed multiple image segmentation methods."
 authors: []
-tags: ["Image Segmentation"]
+tags: ["segmentation"]
 categories: []
 date: 2020-07-01T03:14:43-10:00
 
