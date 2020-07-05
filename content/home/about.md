@@ -21,5 +21,5 @@ subtitle = ""
 
 The Biomedical Image Analysis Group at the University of North Carolina at Chapel Hill (UNC-biag) focuses on the design of computational algorithms to extract quantitative measures from biomedical data. While our emphasis is on image data (e.g., obtained via magnetic resonance imaging, computed tomography, or microscopy) our analyses also include clinical measures and genomics.
 
-Our work is highly interdisciplinary and includes collaborators from a wide range of disciplines such as statistics, applied mathematics, radiology, surgery, and epidemiology. Consequently, we also publish in venues ranging from clinical journals, to medical conferences (such as MICCAI and IPMI), to computer vision conferences (such as CVPR and IPMI), to machine learning conferences (such as NeurIPS, ICML, and AAAI).
-								   
+Our work is highly interdisciplinary and includes collaborators from a wide range of disciplines such as statistics, applied mathematics, radiology, surgery, and epidemiology. Consequently, we also publish in venues ranging from clinical journals, to medical conferences (such as [MICCAI]({{<ref "/tags/MICCAI">}}) and [IPMI]({{<ref "/tags/IPMI">}}) to computer vision conferences (such [CVPR]({{<ref "/tags/CVPR">}}) and [ECCV]({{<ref "/tags/ECCV">}})), to machine learning conferences (such as [NeurIPS]({{<ref "/tags/NeurIPS">}}), [ICML]({{<ref "/tags/ICML">}}), and [AAAI]({{<ref "/tags/AAAI">}})).
+
