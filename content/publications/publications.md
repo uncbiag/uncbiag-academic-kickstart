@@ -74,3 +74,7 @@ Quickly discover relevant content by [filtering publications]({{< ref "/publicat
 Automaticly generated publication lists can also be found on
 * [DBLP](https://dblp.uni-trier.de/pers/hd/n/Niethammer:Marc?q=marc%20niethammer) and
 * [Google scholar](https://scholar.google.com/citations?hl=en&user=KqtBi6MAAAAJ&view_op=list_works&sortby=pubdate).
+
+Conference / journal quicklinks:
+
+[MICCAI]({{<ref "/tags/MICCAI">}}) [IPMI]({{<ref "/tags/IPMI">}}) [CVPR]({{<ref "/tags/CVPR">}}) [ECCV]({{<ref "/tags/ECCV">}}) [NeurIPS]({{<ref "/tags/NeurIPS">}}) [ICML]({{<ref "/tags/ICML">}}) [AAAI]({{<ref "/tags/AAAI">}}) [AISTATS]({{<ref "/tags/AISTATS">}}) [NeuroImage]({{<ref "/tags/NeuroImage">}}) [MEDIA]({{<ref "/tags/MEDIA">}}) [TMI]({{<ref "/tags/TMI">}}) [IJCV]({{<ref "/tags/IJCV">}})
