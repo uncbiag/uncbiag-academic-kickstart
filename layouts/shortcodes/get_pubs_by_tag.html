@@ -1,0 +1,21 @@
+{{ .Scratch.Set "desired_tag" (index .Params 0) }}
+{{ .Scratch.Set "desired_cite_style" (index .Params 1) }}
+
+{{ $p := slice ($.Scratch.Get "desired_tag") }}
+{{ range where .Site.Pages.ByTitle "Params.tags" "intersect" $p}}
+{{print .Page.Title}}
+
+{{ .Scratch.Set "desired_cite_style" 2 }}
+
+{{ if eq ($.Scratch.Get "desired_cite_style") 1 }}
+  {{ partial "li_list" .Page }}
+{{ else if eq ($.Scratch.Get "desired_cite_style") 3 }}
+  {{ partial "li_card" .Page }}
+{{ else if eq ($.Scratch.Get "desired_cite_style") 4 }}
+  {{ partial "li_citation" .Page }}
+{{ else }}
+  {{ partial "li_compact" .Page }}
+{{ end }}
+
+{{ end }}
+
