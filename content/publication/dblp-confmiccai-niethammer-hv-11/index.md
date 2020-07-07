@@ -8,7 +8,6 @@ abstract: "Registration of image-time series has so far been accomplished (i) by
 featured: false
 publication: "*Medical Image Computing and Computer-Assisted Intervention - MICCAI 2011 - 14th International Conference, Toronto, Canada, September 18-22, 2011, Proceedings, Part II*"
 tags: ["MICCAI", "LDDMM", "regression", "brain"]
-url_pdf: "https://doi.org/10.1007/978-3-642-23629-7_80"
+url_pdf: "https://drive.google.com/file/d/1goAqn9xz0nv4nAplPh6ev16kGZEvIAt6"
 doi: "10.1007/978-3-642-23629-7_80"
 ---
-
