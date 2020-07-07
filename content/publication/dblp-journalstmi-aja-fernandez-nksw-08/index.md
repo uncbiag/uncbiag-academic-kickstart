@@ -1,7 +1,7 @@
 ---
 title: "Restoration of DWI Data Using a Rician LMMSE Estimator"
 date: 2008-01-01
-publishDate: 2020-07-07T22:54:11.101089Z
+publishDate: 2020-07-07T23:41:09.705537Z
 authors: ["Santiago Aja-Fernández", "Marc Niethammer", "Marek Kubicki", "Martha Elizabeth Shenton", "Carl-Fredrik Westin"]
 publication_types: ["2"]
 abstract: "This paper introduces and analyzes a linear minimum mean square error (LMMSE) estimator using a Rician noise model and its recursive version (RLMMSE) for the restoration of diffusion weighted images. A method to estimate the noise level based on local estimations of mean or variance is used to automatically parametrize the estimator. The restoration performance is evaluated using quality indexes and compared to alternative estimation schemes. The overall scheme is simple, robust, fast, and improves estimations. Filtering diffusion weighted magnetic resonance imaging (DW-MRI) with the proposed methodology leads to more accurate tensor estimations. Real and synthetic datasets are analyzed."

@@ -1,7 +1,7 @@
 ---
 title: "Depth-Based Shape-Analysis"
 date: 2014-01-01
-publishDate: 2020-07-07T22:54:11.064836Z
+publishDate: 2020-07-07T23:41:09.653172Z
 authors: ["Yi Hong", "Yi Gao", "Marc Niethammer", "Sylvain Bouix"]
 publication_types: ["1"]
 abstract: "In this paper we propose a new method for shape analysis based on the depth-ordering of shapes. We use this depth-ordering to non-parametrically define depth with respect to a normal control population. This allows us to quantify differences with respect to “normality”. We combine this approach with a permutation test allowing it to test for localized shape differences. The method is evaluated on a synthetically generated striatum dataset as well as on a real caudate dataset."

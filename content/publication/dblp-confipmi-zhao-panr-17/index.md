@@ -1,7 +1,7 @@
 ---
 title: "Orthotropic Thin Shell Elasticity Estimation for Surface Registration"
 date: 2017-01-01
-publishDate: 2020-07-07T22:54:11.042448Z
+publishDate: 2020-07-07T23:41:09.618611Z
 authors: ["Qingyu Zhao", "Stephen M. Pizer", "Ron Alterovitz", "Marc Niethammer", "Julian G. Rosenman"]
 publication_types: ["1"]
 abstract: "Elastic physical models have been widely used to regularize deformations in different medical object registration tasks. Traditional approaches usually assume uniform isotropic tissue elasticity (a constant regularization weight) across the whole domain, which contradicts human tissue elasticity being not only inhomogeneous but also anisotropic. We focus on producing more physically realistic deformations for the task of surface registration. We model the surface as an orthotropic elastic thin shell, and we propose a novel statistical framework to estimate inhomogeneous and anisotropic shell elasticity parameters only from a group of known surface deformations. With this framework we show that a joint estimation of within-patient surface deformations and the shell elasticity parameters can improve groupwise registration accuracy. The method is tested in the context of endoscopic reconstruction-surface registration."
