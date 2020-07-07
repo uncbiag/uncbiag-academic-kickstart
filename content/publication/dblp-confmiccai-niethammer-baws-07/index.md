@@ -1,7 +1,7 @@
 ---
 title: "Outlier Rejection for Diffusion Weighted Imaging"
 date: 2007-01-01
-publishDate: 2020-07-05T06:52:41.391062Z
+publishDate: 2020-07-07T22:54:11.107550Z
 authors: ["Marc Niethammer", "Sylvain Bouix", "Santiago Aja-Fernández", "Carl-Fredrik Westin", "Martha Elizabeth Shenton"]
 publication_types: ["1"]
 abstract: "This paper introduces an outlier rejection and signal reconstruction method for high angular resolution diffusion weighted imaging. The approach is based on the thresholding of Laplacian measurements over the sphere of the apparent diffusion coefficient profiles defined for a given set of gradient directions. Exemplary results are presented."

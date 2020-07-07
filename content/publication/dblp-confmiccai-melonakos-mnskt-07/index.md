@@ -1,7 +1,7 @@
 ---
 title: "Finsler Tractography for White Matter Connectivity Analysis of the Cingulum Bundle"
 date: 2007-01-01
-publishDate: 2020-07-05T06:52:41.390669Z
+publishDate: 2020-07-07T22:54:11.106892Z
 authors: ["John Melonakos", "Vandana Mohan", "Marc Niethammer", "Kate Smith", "Marek Kubicki", "Allen R. Tannenbaum"]
 publication_types: ["1"]
 abstract: "In this paper, we present a novel approach for the segmentation of white matter tracts based on Finsler active contours. This technique provides an optimal measure of connectivity, explicitly segments the connecting fiber bundle, and is equipped with a metric which is able to utilize the directional information of high angular resolution data. We demonstrate the effectiveness of the algorithm for segmenting the cingulum bundle."

@@ -1,7 +1,7 @@
 ---
 title: "Metamorphic Geodesic Regression"
 date: 2012-01-01
-publishDate: 2020-07-05T06:52:41.367993Z
+publishDate: 2020-07-07T22:54:11.080024Z
 authors: ["Yi Hong", "Sarang C. Joshi", "Mar Sanchez", "Martin Styner", "Marc Niethammer"]
 publication_types: ["1"]
 abstract: "We propose a metamorphic geodesic regression approach approximating spatial transformations for image time-series while simultaneously accounting for intensity changes. Such changes occur for example in magnetic resonance imaging (MRI) studies of the developing brain due to myelination. To simplify computations we propose an approximate metamorphic geodesic regression formulation that only requires pairwise computations of image metamorphoses. The approximated solution is an appropriately weighted average of initial momenta. To obtain initial momenta reliably, we develop a shooting method for image metamorphosis."

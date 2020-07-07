@@ -1,7 +1,7 @@
 ---
 title: "Knowledge-Based Segmentation for Tracking Through Deep Turbulence"
 date: 2008-01-01
-publishDate: 2020-07-05T06:52:41.386268Z
+publishDate: 2020-07-07T22:54:11.100499Z
 authors: ["Patricio A. Vela", "Marc Niethammer", "Gallagher Pryor", "Allen R. Tannenbaum", "Robert Butts", "Donald Washburn"]
 publication_types: ["2"]
 abstract: "A combined knowledge-based segmentation/active contour algorithm is used for target tracking through turbulence. The algorithm utilizes Bayesian modeling for segmentation of noisy imagery obtained through longrange, laser imaging of a distance target, and active contours for tip tracking. The algorithm demonstrates improved target tracking performance when compared to weighted centroiding. Open-loop and closed-loop comparisons of the algorithms using simulated imagery validate the hypothesis."

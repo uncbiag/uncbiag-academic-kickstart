@@ -1,7 +1,7 @@
 ---
 title: "Physically-based deformable image registration with material property and boundary condition estimation"
 date: 2010-01-01
-publishDate: 2020-07-05T06:52:41.377359Z
+publishDate: 2020-07-07T22:54:11.090776Z
 authors: ["Huai-Ping Lee", "Mark Foskey", "Marc Niethammer", "Ming C. Lin"]
 publication_types: ["1"]
 abstract: "We propose a new deformable medical image registration method that uses a physically-based simulator and an iterative optimizer to estimate the simulation parameters determining the deformation field between the two images. Although a simulation-based registration method can enforce physical constraints exactly and considers different material properties, it requires hand adjustment of material properties, and boundary conditions cannot be acquired directly from the images. We treat the material properties and boundary conditions as parameters for the optimizer, and integrate the physically-based simulation into the optimization loop to generate a physically accurate deformation automatically."
