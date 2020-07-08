@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Level Sets for Visual Tracking"
 date: 2004-01-01
-publishDate: 2020-07-08T04:28:32.623380Z
+publishDate: 2020-07-08T19:54:41.991877Z
 authors: ["Marc Niethammer"]
 publication_types: ["7"]
 abstract: ""

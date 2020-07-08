@@ -1,7 +1,7 @@
 ---
 title: "Geodesic-Loxodromes for Diffusion Tensor Interpolation and Difference Measurement"
 date: 2007-01-01
-publishDate: 2020-07-08T04:28:32.618181Z
+publishDate: 2020-07-08T19:54:41.985320Z
 authors: ["Gordon L. Kindlmann", "Raúl San José Estépar", "Marc Niethammer", "Steven Haker", "Carl-Fredrik Westin"]
 publication_types: ["1"]
 abstract: "In algorithms for processing diffusion tensor images, two common ingredients are interpolating tensors, and measuring the distance between them. We propose a new class of interpolation paths for tensors, termed geodesic-loxodromes, which explicitly preserve clinically important tensor attributes, such as mean diffusivity or fractional anisotropy, while using basic differential geometry to interpolate tensor orientation. This contrasts with previous Riemannian and Log-Euclidean methods that preserve the determinant. Path integrals of tangents of geodesic-loxodromes generate novel measures of over-all difference between two tensors, and of difference in shape and in orientation."

@@ -1,7 +1,7 @@
 ---
 title: "A stokes flow boundary integral measurement of tubular structure cross sections in two dimensions"
 date: 2003-01-01
-publishDate: 2020-07-08T04:28:32.624920Z
+publishDate: 2020-07-08T19:54:41.994409Z
 authors: ["Marc Niethammer", "Eric Pichon", "Allen R. Tannenbaum", "Peter J. Mucha"]
 publication_types: ["1"]
 abstract: "In this paper we will develop a method to determine cross sections of arbitrary two-dimensional tubular structures, which are allowed to branch, by means of a Stokes flow based boundary integral formulation. The measure for the cross sections for a point on the boundary of a given structure will be the path obtained by integrating perpendicularly to the flow lines from one side of the boundary to the other. Special emphasis will be put on the behavior at branching points, the behavior at vortices, and the necessary boundary conditions. The method can be extended to three dimensional problems."

@@ -1,7 +1,7 @@
 ---
 title: "Splines for Diffeomorphic Image Regression"
 date: 2014-01-01
-publishDate: 2020-07-08T04:28:32.570699Z
+publishDate: 2020-07-08T19:54:41.941120Z
 authors: ["Nikhil Singh", "Marc Niethammer"]
 publication_types: ["1"]
 abstract: "This paper develops a method for splines on diffeomorphisms for image regression. In contrast to previously proposed methods to capture image changes over time, such as geodesic regression, the method can capture more complex spatio-temporal deformations. In particular, it is a first step towards capturing periodic motions for example of the heart or the lung. Starting from a variational formulation of splines the proposed approach allows for the use of temporal control points to control spline behavior. This necessitates the development of a shooting formulation for splines. Experimental results are shown for synthetic and real data. The performance of the method is compared to geodesic regression."
