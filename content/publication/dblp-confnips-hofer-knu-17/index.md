@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning with Topological Signatures"
 date: 2017-01-01
-publishDate: 2020-07-07T23:41:09.626962Z
+publishDate: 2020-07-08T04:28:32.541697Z
 authors: ["Christoph D. Hofer", "Roland Kwitt", "Marc Niethammer", "Andreas Uhl"]
 publication_types: ["1"]
 abstract: "Inferring topological and geometrical information from data can offer an alternative perspective in machine learning problems. Methods from topological data analysis, eg, persistent homology, enable us to obtain such information, typically in the form of summary representations of topological features. However, such topological signatures often come with an unusual structure (eg, multisets of intervals) that is highly impractical for most machine learning techniques. While many strategies have been proposed to map these topological signatures into machine learning compatible representations, they suffer from being agnostic to the target learning task. In contrast, we propose a technique that enables us to input topological signatures to deep neural networks and learn a task-optimal representation during training. Our approach is realized as a novel input layer with favorable theoretical properties. Classification experiments on 2D object shapes and social network graphs demonstrate the versatility of the approach and, in case of the latter, we even outperform the state-of-the-art by a large margin."

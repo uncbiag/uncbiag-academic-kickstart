@@ -1,7 +1,7 @@
 ---
 title: "DTI Connectivity by Segmentation"
 date: 2010-01-01
-publishDate: 2020-07-07T23:41:09.693500Z
+publishDate: 2020-07-08T04:28:32.605384Z
 authors: ["Marc Niethammer", "Alexis Boucharin", "Christopher Zach", "Yundi Shi", "Eric Maltbie", "Mar Sanchez", "Martin Styner"]
 publication_types: ["1"]
 abstract: "This paper proposes a new method to compute connectivity information from diffusion weighted images. It is inspired by graph-based approaches to connectivity definition, but formulates the estimation problem in the continuum. In particular, it defines the connectivity through the minimum cut in tensor-weighted space. It is therefore closely related to prior work on segmentation using continuous versions of graph cuts. A numerical solution based on a staggered grid is proposed which allows for the computation of flux directly through diffusion tensors. The resulting global connectivity measure is the maximum diffusive flow supported between two regions of interest."

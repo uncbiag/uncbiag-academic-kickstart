@@ -1,7 +1,7 @@
 ---
 title: "Fast Predictive Simple Geodesic Regression"
 date: 2017-01-01
-publishDate: 2020-07-07T23:41:09.626142Z
+publishDate: 2020-07-08T04:28:32.540839Z
 authors: ["Zhipeng Ding", "Greg M. Fleishman", "Xiao Yang", "Paul Thompson", "Roland Kwitt", "Marc Niethammer"]
 publication_types: ["1"]
 abstract: "Analyzing large-scale imaging studies with thousands of images is computationally expensive. To assess localized morphological differences, deformable image registration is a key tool. However, as registrations are costly to compute, large-scale studies frequently require large compute clusters. This paper explores a fast predictive approximation to image registration. In particular, it uses these fast registrations to approximate a simplified geodesic regression model to capture longitudinal brain changes. The resulting approach is orders of magnitude faster than the optimization-based regression approach and hence facilitates large-scale analysis on a single graphics processing unit. We show results on 2D and 3D brain magnetic resonance images from OASIS and ADNI."

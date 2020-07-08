@@ -1,7 +1,7 @@
 ---
 title: "Robust Multimodal Dictionary Learning"
 date: 2013-01-01
-publishDate: 2020-07-07T23:41:09.670236Z
+publishDate: 2020-07-08T04:28:32.583681Z
 authors: ["Tian Cao", "Vladimir Jojic", "Shannon Modla", "Debbie Powell", "Kirk Czymmek", "Marc Niethammer"]
 publication_types: ["1"]
 abstract: "We propose a robust multimodal dictionary learning method for multimodal images. Joint dictionary learning for both modalities may be impaired by lack of correspondence between image modalities in training data, for example due to areas of low quality in one of the modalities. Dictionaries learned with such non-corresponding data will induce uncertainty about image representation. In this paper, we propose a probabilistic model that accounts for image areas that are poorly corresponding between the image modalities. We cast the problem of learning a dictionary in presence of problematic image patches as a likelihood maximization problem and solve it with a variant of the EM algorithm. Our algorithm iterates identification of poorly corresponding patches and refinements of the dictionary. We tested our method on synthetic and real data. We show improvements in image prediction quality and alignment accuracy when using the method for multimodal image registration."

@@ -1,7 +1,7 @@
 ---
 title: "Scoliosis screening and monitoring using self contained ultrasound and neural networks"
 date: 2018-01-01
-publishDate: 2020-07-07T23:41:09.598764Z
+publishDate: 2020-07-08T04:28:32.514427Z
 authors: ["Hastings Greer", "Samuel Gerber", "Marc Niethammer", "Roland Kwitt", "Matt McCormick", "Deepak Roy Chittajallu", "Neal Siekierski", "Matthew Oetgen", "Kevin Cleary", "Stephen R. Aylward"]
 publication_types: ["1"]
 abstract: "We aim to diagnose scoliosis using a self contained ultrasound device that does not require significant training to operate. The device knows its angle relative to vertical using an embedded inertial measurement unit, and it estimates its angle relative to a vertebrae using a neural network analysis of its ultrasound images. The composition of those angles defines the angle of a vertebrae from vertical. The maximum difference between vertebrae angles collected from a scan of a spine yields the Cobb angle measure that is used to quantify scoliosis severity."

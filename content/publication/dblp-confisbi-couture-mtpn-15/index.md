@@ -1,7 +1,7 @@
 ---
 title: "Hierarchical task-driven feature learning for tumor histology"
 date: 2015-01-01
-publishDate: 2020-07-07T23:41:09.642799Z
+publishDate: 2020-07-08T04:28:32.555647Z
 authors: ["Heather D. Couture", "J. S. Marron", "Nancy E. Thomas", "Charles M. Perou", "Marc Niethammer"]
 publication_types: ["1"]
 abstract: "Through learning small and large-scale image features, we can capture the local and architectural structure of tumor tissue from histology images. This is done by learning a hierarchy of dictionaries using sparse coding, where each level captures progressively larger scale and more abstract properties. By optimizing the dictionaries further using class labels, discriminating properties of classes that are not easily visually distinguishable to pathologists are captured. We explore this hierarchical and task-driven model in classifying malignant melanoma and the genetic subtype of breast tumors from histology images. We also show how interpreting our model through visualizations can provide insight to pathologists."

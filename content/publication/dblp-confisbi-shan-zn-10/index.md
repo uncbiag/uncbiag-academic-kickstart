@@ -1,7 +1,7 @@
 ---
 title: "Automatic three-label bone segmentation from knee MR images"
 date: 2010-01-01
-publishDate: 2020-07-07T23:41:09.692819Z
+publishDate: 2020-07-08T04:28:32.604936Z
 authors: ["Liang Shan", "Christopher Zach", "Marc Niethammer"]
 publication_types: ["1"]
 abstract: "We propose a novel fully automatic three-label bone segmentation approach applied to knee segmentation (femur and tibia) from T1 and T2* magnetic resonance (MR) images. The three-label segmentation approach guarantees separate segmentations of femur and tibia which cannot be assured by general binary segmentation methods. The proposed approach is based on a convex optimization problem by embedding label assignment into higher dimensions. Appearance information is used in the segmentation to favor the segmentation of the cortical bone. We validate the proposed three-label segmentation method on nine knee MR images against manual segmentations for femur and tibia."
