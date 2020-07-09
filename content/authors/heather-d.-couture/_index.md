@@ -1,49 +1,49 @@
 ---
 # Display name
-title: Yang Huang
+title: Heather D. Couture
 
 # Username (this should match the folder name)
 authors:
-- "Yang Huang"
+- "Heather D. Couture"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: M.Sc. in Computer Science
+role: Ph.D. in Computer Science
 
 # Organizations/Affiliations
 #organizations:
-#- name: ---
+#- name: Google
 #  url: ""
   
 # Short bio (displayed in user profile at end of posts)
-#bio: My research interests include optimal control approaches for image registration.
+#bio: My research interests include ...
 
 #interests:
-#- Image Registration
-#- Optimal Control
+#- Image Analysis for Osteoarthritis
+#- Image Segmentation
 
 education:
   courses:
-  - course: MSc in Computer Science
+  - course: PhD in Computer Science
     institution: UNC Chapel Hill
-    year: 2012
+    year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+#- icon: envelope
+#  icon_pack: fas
+#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.com/citations?user=4L1x8GEAAAAJ&hl=en&oi=sra
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=T3-uefYAAAAJ&hl=en&oi=ao
 #- icon: github
 #  icon_pack: fab
 #  link: https://github.com/uncbiag
@@ -62,4 +62,4 @@ user_groups:
 - Alumni
 ---
 
-Yang Huang worked on optimal control approaches for image registration.
+Heather Couture worked on image analysis approaches for breast cancer. She currently works at [Pixel Scientia Labs](http://www.pixelscientia.com/index.html).

@@ -13,16 +13,16 @@ superuser: false
 role: Ph.D. in Computer Science
 
 # Organizations/Affiliations
-organizations:
-- name: Google
-  url: ""
+#organizations:
+#- name: Google
+#  url: ""
   
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include image registration for images with pathologies and machine learning.
 
-interests:
-- Image Analysis for Osteoarthritis
-- Image Segmentation
+#interests:
+#- Image Analysis for Osteoarthritis
+#- Image Segmentation
 
 education:
   courses:
@@ -62,4 +62,4 @@ user_groups:
 - Alumni
 ---
 
-Liang Shan developed various approaches for the analysis of cartilage changes in osteoarthritis. With a particular emphasis on multi-atlas segmentation, longitudinal analysis, and convex segmentation approaches. She is currently a software engineer at Google.
+Liang Shan developed various approaches for the analysis of cartilage changes in osteoarthritis; with a particular emphasis on multi-atlas segmentation, longitudinal analysis, and convex segmentation approaches. She is currently a software engineer at Google.

@@ -18,6 +18,7 @@ subtitle = ""
                  "Graduate Students",
                  "Administration",
                  "Visitors",
+		 "Collaborators",
                  "Alumni"]
 
 [design]

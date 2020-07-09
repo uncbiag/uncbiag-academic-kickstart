@@ -13,16 +13,16 @@ superuser: false
 role: M.Sc. in Computer Science
 
 # Organizations/Affiliations
-organizations:
-- name: Google
-  url: ""
+#organizations:
+#- name: Google
+#  url: ""
   
 # Short bio (displayed in user profile at end of posts)
-bio: My research focuses on image registration approaches based on optimal control.
+#bio: My research focuses on image registration approaches based on optimal control.
 
-interests:
-- Image Registration
-- Optimal Control
+#interests:
+#- Image Registration
+#- Optimal Control
 
 education:
   courses:
@@ -35,9 +35,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+#- icon: envelope
+#  icon_pack: fas
+#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen

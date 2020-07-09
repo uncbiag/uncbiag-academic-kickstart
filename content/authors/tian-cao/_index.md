@@ -13,16 +13,16 @@ superuser: false
 role: Ph.D. in Computer Science
 
 # Organizations/Affiliations
-organizations:
-- name: Houz
-  url: ""
+#organizations:
+#- name: Houz
+#  url: ""
   
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include 
+#bio: My research interests include 
 
-interests:
-- Image Analogies
-- Image Registration
+#interests:
+#- Image Analogies
+#- Image Registration
 
 education:
   courses:
@@ -35,15 +35,15 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+#- icon: envelope
+#  icon_pack: fas
+#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.com/citations?user=4L1x8GEAAAAJ&hl=en&oi=sra
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=bAx6oTsAAAAJ&hl=en&oi=sra
 #- icon: github
 #  icon_pack: fab
 #  link: https://github.com/uncbiag
@@ -62,4 +62,4 @@ user_groups:
 - Alumni
 ---
 
-Tian Cao worked on ... He is now at ...
+Tian Cao worked on image registration approaches with an emphais on correlative microscopy and multimodal registration. He currently works at Houzz.

@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Histology"
-summary: "We have developed analysis approaches for histology images. In particular, we have pioneered approaches for appearance normalization."
+summary: "Analysis approaches for histology images; in particular, for appearance normalization."
 authors: []
 tags: ["histology","breast","skin"]
 categories: []
@@ -43,15 +43,14 @@ slides: ""
 
 ---
 
-Skin cancer is an important application area, since it is estimated that one in every 75 North Americans will develop a malignant melanoma in their lifetime. If not diagnosed early, malignant melanoma are frequently lethal. Standard practice is to perform biopsies for suspicious-looking skin. These biopsies are then evaluated by dermatopathologists (by inspecting histology slides) and classified into subtypes, which guides further treatment. This problem is an ideal playground to develop new image analysis methods for microscopy because (1) it requires the analysis of cellular and nuclear features, but also the development of methods to assess large-scale architectonic arrangements, (2) it motivates methods for segmentations with area constraints, because cell arrangements range from sparse to densly packed, (3) there is a large amount of data available including survival data with will allow to assess performance of the developed methods in the context of classification and grading in comparison to experts, and (4) developed methods could have immediate clinical impact to guide diagnosis. (Note that while some genetic markers exist they are insufficient to guide clinical diagnosis at this point.)
+We have developed various image analysis approaches in the context of skin and breast cancer, based on histology images obtained via tissue biopsies. In many cases tissue suptypes are of interest which can, for example, be defined from genomics or derived from image characteristics. This is an ideal playground to develop new image analysis methods for microscopy, for example, to 1) extract cellular and nuclear features, to 2) assess large-scale architectonic arrangements, 3) to relate image characteristics to survival and recurrence, and 4) to develop methods with the potential for clinical impact on diagnosis and treatment.
 
-We are working on methods for slide normalization to allow for quantitative analysis of image features between sets of slides and on methods for feature extraction and classification ({{<cite "couture15">}}
-).
+To this end, we have worked on methods for slide normalization to allow for quantitative analysis of image features between sets of slides ({{<cite "macenko09">}}{{<cite "niethammer10">}}{{<cite "vicory15">}}), on methods to characterize cell arrangements ({{<cite "miedema11">}}{{<cite "singh14">}}), as well as on machine learning approaches for feature extraction and classification ({{<cite "couture15">}}{{<cite "couture18">}}).
 
 {{<putbib "/publication/dblp-confmiccai-couture-mptn-18" "couture18" 2>}}
 {{<putbib "/publication/dblp-confisbi-couture-mtpn-15" "couture15" 2>}}
-{{<putbib "/publication/dblp-journalscmig-vicory-ctbmwn-15" "vicory15" 2>}}
 {{<putbib "/publication/miedema-2011" "miedema11" 2>}}
+{{<putbib "/publication/dblp-journalscmig-vicory-ctbmwn-15" "vicory15" 2>}}
 {{<putbib "/publication/dblp-confmiccai-niethammer-bmwt-10" "niethammer10" 2>}}
 {{<putbib "/publication/dblp-confisbi-macenko-nmbwgst-09" "macenko09" 2>}}
 {{<putbib "/publication/dblp-confmiccai-singh-cmpn-14" "singh14" 2>}}

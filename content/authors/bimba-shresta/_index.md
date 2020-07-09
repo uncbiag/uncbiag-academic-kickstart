@@ -13,16 +13,16 @@ superuser: false
 role: Undergraduate Student in Computer Science
 
 # Organizations/Affiliations
-organizations:
-- name: Facebook
-  url: ""
+#organizations:
+#- name: Facebook
+#  url: ""
   
 # Short bio (displayed in user profile at end of posts)
-bio: My research focuses on image analysis for pediatric airways.
+#bio: My research focuses on image analysis for pediatric airways.
 
-interests:
-- Image Analysis
-- Shaoe Analysis
+#interests:
+#- Image Analysis
+#- Shaoe Analysis
 
 education:
   courses:
@@ -35,9 +35,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+#- icon: envelope
+#  icon_pack: fas
+#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen

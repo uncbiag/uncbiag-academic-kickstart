@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Pediatric Airway Analysis"
-summary: "We have developed approaches to quantify pediatric airways."
+summary: "Approaches to quantify pediatric airways."
 authors: []
 tags: ["registration"]
 categories: []
@@ -40,9 +40,7 @@ url_video: ""
 slides: ""
 ---
 
-We are designing analysis methods to capture normal growth of pediatric airways (to build a pediatric airway atlas). This project is also concerned with predicting growth for individuals. The driving problem is airway obstruction in children (such as Pierre Robin sequence or subglottic stenosis) which can either be treated by “watch-and-wait” or surgery. The goals are (1) to provide feedback to a surgeon with respect to potential outcomes, (2) to assess achieved surgical outcome (i.e., how does a childs airway compare to a normal control population before and after surgery), and (3) to ultimately evaluate the necessity of surgical interventions for individual children. We have developed approaches to build airway atlases ({{<cite "hong14">}}{{<cite "hong13a">}}{{<cite "hong13b">}}) and have applied these approaches to analyze aiirways in infants and children with subglotic steonosis ({{<cite "zdanski05">}}).
-
-
+We are designing analysis methods to capture normal growth of pediatric airways (to build a pediatric airway atlas). This project is also concerned with predicting growth for individuals. The driving problem is airway obstruction in children (such as Pierre Robin sequence or subglottic stenosis) which can either be treated by “watch-and-wait” or surgery. The goals are 1) to provide feedback to a surgeon with respect to potential outcomes, 2) to assess achieved surgical outcome (i.e., how does a childs airway compare to a normal control population before and after surgery), and 3) to ultimately evaluate the necessity of surgical interventions for individual children. We have developed approaches to build airway atlases ({{<cite "hong14">}}{{<cite "hong13a">}}{{<cite "hong13b">}}) and have applied these approaches to analyze aiirways in infants and children with subglotic steonosis ({{<cite "zdanski05">}}).
 
 {{<putbib "/publication/dblp-journalsmia-hong-dmkskpsdzn-14" "hong14" 2>}}
 {{<putbib "/publication/dblp-confmiccai-hong-dmkn-13" "hong13a" 2>}}

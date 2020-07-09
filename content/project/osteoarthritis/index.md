@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Osteoarthritis"
-summary: "We have developed a range of image analysis approaches for the quantitative analysis of osteoarthritis in the knee."
+summary: "Image analysis approaches for the quantitative analysis of osteoarthritis in the knee."
 authors: []
 tags: ["segmentation","registration","knee"]
 categories: []

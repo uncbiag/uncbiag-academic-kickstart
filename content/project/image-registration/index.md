@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Image Registration"
-summary: "We have developed various deformable image registration approaches."
+summary: "Deformable image registration approaches via numerical optimization and deep learning."
 authors: []
 tags: ["registration"]
 categories: []
@@ -39,4 +39,11 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+Our group has a long history of developing image registration approaches. In particular, we have been focusing on non-parametric approaches to image registration, where deformations are directly or indirectly parameterized via vector fields. Specifically, we have explored approaches related to the large deformation metric mapping model (LDDMM) and stationary velocity fields for [computational anatomy](https://en.wikipedia.org/wiki/Computational_anatomy).
+
+### Image registration and optimal control
+
+
+
 We have developed various different image registration approaches.

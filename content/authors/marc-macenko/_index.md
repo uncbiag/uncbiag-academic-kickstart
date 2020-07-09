@@ -13,16 +13,16 @@ superuser: false
 role: M.Sc. in Computer Science
 
 # Organizations/Affiliations
-organizations:
-- name: --
-  url: ""
+#organizations:
+#- name: --
+#  url: ""
   
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include ...
+#bio: My research interests include ...
 
-interests:
-- Image Analysis for Histology
-- Appearance Normalization for Histology
+#interests:
+#- Image Analysis for Histology
+#- Appearance Normalization for Histology
 
 education:
   courses:
@@ -35,9 +35,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+#- icon: envelope
+#  icon_pack: fas
+#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
@@ -62,4 +62,4 @@ user_groups:
 - Alumni
 ---
 
-Marc Macenko worked on ...
+Marc Macenko worked on appearance normalization approaches for histology.
