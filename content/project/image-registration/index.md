@@ -46,7 +46,7 @@ Our group has a long history of developing [image registration approaches]({{<re
 
 ### Image registration and optimal control
 
-A lot of recent image registration work has moved to deep learning approaches which make use of automatic differentiation. Automatic differentiation in turn is related to adjoint optimization approaches and are intimately related to optimal control. We introduced optimal control approaches for the LDDMM model ({{<cite "hart09a">}}{{<cite "hart09b">}}) which greatly increased ease of formulating and the solution of related registration problems by simplifying gradient formulation due to the adjoint approach. This approach also paved the way for shooting approaches for image registration and geodesic regression ({{<cite "niethammer11">}} which parameterize a deformation only via initial conditions as well as for more general models, such as splines for diffeomorphisms ({{<cite "singh15">}}).
+A lot of recent image registration work has moved to deep learning approaches which make use of automatic differentiation. Automatic differentiation in turn is related to adjoint optimization approaches and are intimately related to optimal control. We introduced optimal control approaches for the LDDMM model ({{<cite "hart09a">}}{{<cite "hart09b">}}) which greatly increased ease of formulating and the solution of related registration problems by simplifying gradient formulation due to the adjoint approach. This approach also paved the way for shooting approaches for image registration and geodesic regression ({{<cite "niethammer11">}} which parameterize a deformation only via initial conditions as well as for more general models, such as splines for diffeomorphisms ({{<cite "singh15">}}). Most recently we developed an approach to parameterize neural networks via initial conditions based on this viewpoint ({{<cite "vialard20">}}).
 
 ### Image registration in the presence of pathologies or appearance changes
 
@@ -69,6 +69,7 @@ Deep learning approaches to image registration dramatically reduce the runtime o
 {{<putbib "dblp-confcdc-niethammer-hz-09" "hart09b">}}
 {{<putbib "dblp-confmiccai-niethammer-hv-11" "niethammer11">}}
 {{<putbib "dblp-journalsmia-singh-vn-15" "singh15">}}
+{{<putbib "dblp-journalscorrabs-2006-10330" "vialard20">}} 
 
 {{<putbib "dblp-confmiccai-yang-kn-16" "yang16">}}
 {{<putbib "dblp-journalsneuroimage-yang-ksn-17" "yang17">}}
