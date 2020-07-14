@@ -38,20 +38,8 @@ subtitle = ""
     tag = "segmentation"
 
   [[content.filter_button]]
-    name = "Lung"
-    tag = "lung"
-
-  [[content.filter_button]]
-    name = "Brain"
-    tag = "brain"
-
-  [[content.filter_button]]
-    name = "Knee"
-    tag = "knee"
-
-  [[content.filter_button]]
-    name = "Breast"
-    tag = "breast"
+    name = "Shape"
+    tag = "shape"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

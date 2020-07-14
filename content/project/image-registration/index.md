@@ -4,7 +4,7 @@
 title: "Image Registration"
 summary: "Deformable image registration approaches via numerical optimization and deep learning."
 authors: []
-tags: ["registration"]
+tags: ["registration","deep learning"]
 categories: []
 date: 2020-07-01T03:14:43-10:00
 

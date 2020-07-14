@@ -4,7 +4,7 @@
 title: "Osteoarthritis"
 summary: "Image analysis approaches for the quantitative analysis of osteoarthritis in the knee."
 authors: []
-tags: ["segmentation","registration","knee"]
+tags: ["segmentation","registration","knee","deep learning"]
 categories: []
 date: 2020-07-01T03:14:43-10:00
 
