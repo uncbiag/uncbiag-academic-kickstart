@@ -1,0 +1,28 @@
+#! /usr/bin/env bash
+
+# Before running this for the first time (and possibly making it a cron job) clone the repository
+
+#git clonehttps://github.com/uncbiag/uncbiag-academic-kickstart
+#cd uncbiag-academic-kickstart
+#git submodule update --init --recursive
+
+# Here are some site-specific settings
+
+GIT_REPOSITORY_DIRECTORY='/Users/mn/bitbucket/uncbiag_auto_update_script/uncbiag-academic-kickstart'
+TARGET_DEPLOY_DIRECTORY='/Users/mn/bitbucket/uncbiag_auto_update_script/deploy'
+
+# Setting a base-url, for local set it to BASE_URL='http://0.0.0.0:8000/' and then run it with cd deploy, python -m http.server
+BASE_URL='http://0.0.0.0:8000/'
+
+# update the github repo
+cd $GIT_REPOSITORY_DIRECTORY
+git checkout master
+git pull origin master
+
+# run hugo
+hugo --baseURL=$BASE_URL
+
+# copy the directory into a target directory
+rsync -v --checksum -r public/* $TARGET_DEPLOY_DIRECTORY
+
+
