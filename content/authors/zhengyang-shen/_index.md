@@ -63,4 +63,4 @@ user_groups:
 - Graduate Students
 ---
 
-Zhengyang Shen is a graduate student in computer science. He works on fast deep learning approaches for image registration.
+[Zhengyang Shen](http://www.cs.unc.edu/~zyshen/) is a graduate student in computer science. He works on fast deep learning approaches for image registration.
