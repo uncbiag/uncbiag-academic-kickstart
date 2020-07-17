@@ -2,14 +2,19 @@
 
 # Before running this for the first time (and possibly making it a cron job) clone the repository
 
-#git clonehttps://github.com/uncbiag/uncbiag-academic-kickstart
-#cd uncbiag-academic-kickstart
-#git submodule update --init --recursive
-
 # Here are some site-specific settings
 
+SCRIPT_DIRECTORY='/home/mn/uncbiag-webpage'
 GIT_REPOSITORY_DIRECTORY='/home/mn/uncbiag-webpage/uncbiag-academic-kickstart'
 TARGET_DEPLOY_DIRECTORY='/var/www/html'
+HUGO_BINARY='/home/linuxbrew/.linuxbrew/bin/hugo'
+
+cd $SCRIPT_DIRECTORY
+rm -rf $GIT_REPOSITORY_DIRECTORY
+
+git clone https://github.com/uncbiag/uncbiag-academic-kickstart
+cd uncbiag-academic-kickstart
+git submodule update --init --recursive
 
 # Setting a base-url, for local set it to BASE_URL='http://0.0.0.0:8000/' and then run it with cd deploy, python -m http.server
 BASE_URL='https://biag.cs.unc.edu/'
@@ -20,7 +25,7 @@ git checkout master
 git pull origin master
 
 # run hugo
-hugo --baseURL=$BASE_URL
+$HUGO_BINARY --baseURL=$BASE_URL
 
 # copy the directory into a target directory
 rsync -v --checksum -r public/* $TARGET_DEPLOY_DIRECTORY
@@ -28,3 +33,5 @@ rsync -v --checksum -r public/* $TARGET_DEPLOY_DIRECTORY
 # set the permissions
 chmod -R 755 $TARGET_DEPLOY_DIRECTORY
 
+# once run, send an email
+echo Ran webpage update at `date` | mail -e -s "uncbiag webpage update" mn@cs.unc.edu
