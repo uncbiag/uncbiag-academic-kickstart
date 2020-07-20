@@ -3,7 +3,7 @@
 
 title: "Histology"
 summary: "Analysis approaches for histology images; in particular, for appearance normalization."
-authors: []
+authors: ["Marc Niethammer"]
 tags: ["histology","breast","skin","deep learning"]
 categories: []
 date: 2020-07-01T03:14:43-10:00

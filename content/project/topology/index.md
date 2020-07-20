@@ -3,7 +3,7 @@
 
 title: "Topology"
 summary: "Topological analysis approaches, with a recent focus on integrating deep learning with topology."
-authors: []
+authors: ["Marc Niethammer"]
 tags: ["topology","deep learning","shape"]
 categories: []
 date: 2020-07-01T03:14:43-10:00

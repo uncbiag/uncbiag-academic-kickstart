@@ -3,7 +3,7 @@
 
 title: "Osteoarthritis"
 summary: "Image analysis approaches for the quantitative analysis of osteoarthritis in the knee."
-authors: []
+authors: ["Marc Niethammer"]
 tags: ["segmentation","registration","knee","deep learning"]
 categories: []
 date: 2020-07-01T03:14:43-10:00

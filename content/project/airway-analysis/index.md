@@ -3,7 +3,7 @@
 
 title: "Pediatric Airway Analysis"
 summary: "Approaches to quantify pediatric airways."
-authors: []
+authors: ["Marc Niethammer"]
 tags: ["registration"]
 categories: []
 date: 2020-07-01T03:14:43-10:00
