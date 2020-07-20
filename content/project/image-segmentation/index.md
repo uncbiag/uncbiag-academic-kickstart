@@ -3,7 +3,7 @@
 
 title: "Image Segmentation"
 summary: "We have developed multiple image segmentation methods."
-authors: []
+authors: ["Marc Niethammer"]
 tags: ["segmentation","deep learning"]
 categories: []
 date: 2020-07-01T03:14:43-10:00

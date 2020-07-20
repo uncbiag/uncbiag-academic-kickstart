@@ -3,7 +3,7 @@
 
 title: "Shape Analysis"
 summary: "Analysis approaches to quantify shape differences."
-authors: []
+authors: ["Marc Niethammer"]
 tags: ["shape"]
 categories: []
 date: 2020-07-09T18:18:57-10:00
