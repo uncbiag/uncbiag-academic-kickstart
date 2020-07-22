@@ -39,7 +39,7 @@ education:
     year: 2000
   - course: MSc in Engineering Science and Mechanics
     institution: Georgia Institute of Technology
-    year: 2002
+    year: 1999
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
