@@ -27,8 +27,9 @@ interests:
 
 education:
   courses:
-  - course BSc in Computer Science and BSc in Mathematics
+  - course: BSc in Computer Science and BSc in Mathematics
     institution: University of Iowa
+    year: 2016
   - course: BSc in Mathematics and Applied Mathematics
     institution: Zheijiang University
     year: 2014
