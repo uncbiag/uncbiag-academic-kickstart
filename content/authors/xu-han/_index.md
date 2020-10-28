@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Graduate Student in Computer Science
+role: Ph.D. in Computer Science
 
 # Organizations/Affiliations
 organizations:
@@ -65,7 +65,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
+- Alumni
 ---
 
 Xu Han is a graduate student in computer science. He works on image registration approaches for images with pathologies.
