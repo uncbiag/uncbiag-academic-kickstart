@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Graduate Student in Computer Science
+role: PhD Student in Computer Science
 
 # Organizations/Affiliations
 organizations:
@@ -41,9 +41,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
+- icon:  home
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: https://wildphoton.github.io/
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
@@ -56,11 +56,14 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/zhenlinxu/
+- icon: envelope
+  icon_pack: fas
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: https://wildphoton.github.io/files/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "zhenlinx@cs.unc.edu"
@@ -71,4 +74,4 @@ user_groups:
 - Graduate Students
 ---
 
-Zhenlin Xu is a Ph.D. student in computer science. He works on deep learning approaches for image registration, image segmentation, and learning robust and generalizable visual representation.
+Zhenlin Xu is a Ph.D. student in computer science. He works on deep learning approaches for image registration, image segmentation, and learning robust and generalizable visual representation. See more about him [here](https://wildphoton.github.io/).
