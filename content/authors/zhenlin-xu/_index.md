@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Student in Computer Science
+role: Graduate Student in Computer Science
 
 # Organizations/Affiliations
 organizations:
