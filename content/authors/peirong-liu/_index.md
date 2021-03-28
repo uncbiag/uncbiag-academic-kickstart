@@ -18,18 +18,17 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include perfusion imaging, partial diffenrential equations, and machine learning.
+bio: My research interests include machine learning, computer vision, partial differential equations, and perfusion imaging.
 
 interests:
-- Partial Diffenrential Equations
 - Machine Learning
-- Perfusion Imaging
+- Partial Differential Equations
 - Image Registration
 
 education:
   courses:
   - course: BSc in Mathematics
-    institution: Shanghai Univeristy (Class Rank 1/305) 
+    institution: Shanghai University (Class Rank 1/305) 
     year: 2018
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
