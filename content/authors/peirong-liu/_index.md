@@ -64,6 +64,6 @@ user_groups:
 
 Peirong Liu is a graduate student in computer science. She works on perfusion imaging.
 
-[View my full profile]({{< ref "/individual_user_pages/peirong-liu/index.md" >}})
+[View my personal website](https://peirong26.github.io/me/)
 
 
