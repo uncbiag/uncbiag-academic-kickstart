@@ -26,6 +26,9 @@ interests:
 
 education:
   courses:
+  - course: MSc in Computer Science
+    institution: UNC Chapel Hill
+    year: 2021
   - course: BSc in Computer Science
     institution: ITU
     year: 2019
@@ -59,7 +62,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
+- Alumni
 ---
 
 Sahin Olut is a graduate student in computer science. He works on image registration.
