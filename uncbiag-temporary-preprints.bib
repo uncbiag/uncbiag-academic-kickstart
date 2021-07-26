@@ -1,192 +1,22 @@
-@Conference{pre_Xu2020_RandConv,
-  author = 	 {Zhenlin Xu and
-               Deyi Liu and
-               Junlin Yang and
-               Colin Raffel and
-               Marc Niethammer},
-  title = 	 {Robust and generalizable visual representation learning via random convolutions},
-  year = 	 {2020},
-  url = {https://arxiv.org/abs/2007.13003},
-  abstract = {While successful for various computer vision tasks, deep neural networks have shown to be vulnerable to texture style shifts and small perturbations to which humans are robust. In this work, we show that the robustness of neural networks can be greatly improved through the use of random convolutions as data augmentation. Random convolutions are approximately shape-preserving and may distort local textures. Intuitively, randomized convolutions create an infinite number of new domains with similar global shapes but random local texture. Therefore, we explore using outputs of multi-scale random convolutions as new images or mixing them with the original images during training. When applying a network trained with our approach to unseen domains, our method consistently improves the performance on domain generalization benchmarks and is scalable to ImageNet. In particular, in the challenging scenario of generalizing to the sketch domain in PACS and to ImageNet-Sketch, our method outperforms state-of-art methods by a large margin. More interestingly, our method can benefit downstream tasks by providing a more robust pretrained visual representation.},
+@article{carmichael2019joint,
+  title={Joint and individual analysis of breast cancer histologic images and genomic covariates},
+  author={Iain Carmichael and
+  Benjamin C Calhoun and
+  Katherine A Hoadley and
+  Melissa A Troester and
+  Joseph Geradts and
+  Heather D Couture and
+  Linnea Olsson and
+  Charles M Perou and
+  Marc Niethammer and
+  Jan Hannig and
+  J S Marron},
+  url = {https://arxiv.org/abs/1912.00434},
+  abstract = {A key challenge in modern data analysis is understanding connections between complex and differing modalities of data. For example, two of the main approaches to the study of breast cancer are histopathology (analyzing visual characteristics of tumors) and genetics. While histopathology is the gold standard for diagnostics and there have been many recent breakthroughs in genetics, there is little overlap between these two fields. We aim to bridge this gap by developing methods based on Angle-based Joint and Individual Variation Explained (AJIVE) to directly explore similarities and differences between these two modalities. Our approach exploits Convolutional Neural Networks (CNNs) as a powerful, automatic method for image feature extraction to address some of the challenges presented by statistical analysis of histopathology image data. CNNs raise issues of interpretability that we address by developing novel methods to explore visual modes of variation captured by statistical algorithms (e.g. PCA or AJIVE) applied to CNN features. Our results provide many interpretable connections and contrasts between histopathology and genetics.},
   note = {submitted},
-  OPTkey = 	 {},
-  OPTeditor = 	 {},
-  OPTvolume = 	 {},
-  OPTnumber = 	 {},
-  OPTseries = 	 {},
-  OPTpages = 	 {},
-  OPTmonth = 	 {},
-  OPTaddress = 	 {},
-  OPTorganization = {},
-  OPTpublisher = {},
-  OPTannote = 	 {},
-  keywords = {deep learning, representation learning, robustness, domain generalization, neural networks, data augmentation}
+  journal={The Annals of Applied Statistics},
+  year={2019},
+  keywords = {deep learning, breast cancer}
 }
 
-
-
-@Conference{pre_ding2020_votenet_pp,
-  author = 	 {Zhipeng Ding and Marc Niethammer},
-  title = 	 {{VoteNet++}: Registration Refinement for Multi-Atlas Segmentation},
-  year = 	 {2020},
-  url = {https://drive.google.com/file/d/1MWCl3YhQR8qTt-CPmXKkqtg_aoWq33IZ},
-  abstract = {Multi-atlas segmentation (MAS) is a popular image segmen- tation technique for medical images. In this work, we improve the performance of MAS by correcting registration errors be- fore label fusion. Specifically, we use a volumetric displace- ment field to refine registrations based on image anatomical appearance and predicted labels. We show the influence of the initial spatial alignment as well as the beneficial effect of using label information for MAS performance. Experiments demonstrate that the proposed refinement approach improves MAS performance on a 3D magnetic resonance dataset of the knee.},
-  note = {submitted},
-  OPTkey = 	 {},
-  OPTeditor = 	 {},
-  OPTvolume = 	 {},
-  OPTnumber = 	 {},
-  OPTseries = 	 {},
-  OPTpages = 	 {},
-  OPTmonth = 	 {},
-  OPTaddress = 	 {},
-  OPTorganization = {},
-  OPTpublisher = {},
-  OPTannote = 	 {},
-  keywords = {segmentation,brain}
-}
-
-@Conference{han2020_MLMI,
-  author = 	 {Xu Han and Zhengyang Shen and Zhenlin Xu and Spyridon Bakas and Hamed Akbari and Michel Bilello and Christos Davatzikos and Marc Niethammer},
-  title = 	 {A Deep Network for Joint Registration and Reconstruction of Images with Pathologies},
-  year = 	 {2020},
-  url = {https://drive.google.com/file/d/1AaLx1KS3QvxAAHsh6qFrxBoMfV5IELUO},
-  abstract = {Registration of images with pathologies is challenging due to tissue appearance changes and missing correspondences caused by the pathologies. Moreover, mass effects as observed for brain tumors may displace tissue, creating larger deformations over time than what is observed in a healthy brain. Deep learning models have successfully been applied to image registration to offer dramatic speed up and to use surrogate information (e.g., segmentations) during training. However, existing approaches focus on learning registration models using images from healthy patients. They are therefore not designed for the registration of images with strong pathologies for example in the context of brain tumors, and traumatic brain injuries. In this work, we explore a deep learning approach to register images with brain tumors to an atlas. Our model learns an appearance mapping from images with tumors to the atlas, while simultaneously predicting the transformation to atlas space. Using separate decoders, the network disentangles the tumor mass effect from the reconstruction of quasi-normal images. Results on both synthetic and real brain tumor scans show that our approach outperforms cost function masking for registration to the atlas and that reconstructed quasi-normal images can be used for better longitudinal registrations.},
-  booktitle = 	 {Workshop on Machine Learning in Medical Imaging (MLMI); Medical Image Computing and Computer Assisted Intervention - {MICCAI}},
-  OPTkey = 	 {},
-  OPTeditor = 	 {},
-  OPTvolume = 	 {},
-  OPTnumber = 	 {},
-  OPTseries = 	 {},
-  OPTpages = 	 {},
-  OPTmonth = 	 {},
-  OPTaddress = 	 {},
-  OPTorganization = {},
-  OPTpublisher = {},
-  OPTannote = 	 {},
-  keywords = {registration,brain,pathology}
-}
-
-@Conference{pre_gerber2020_miccai,
-  author = 	 {Samuel Gerber and Marc Niethammer},
-  title = 	 {Spatial Component Analysis to Mitigate Multiple Testing in Voxel-Based Analysis},
-  booktitle = 	 {Medical Image Computing and Computer Assisted Intervention - {MICCAI}},
-  year = 	 {2020},
-  abstract = {Voxel-based analysis provides a simple, easy to interpret approach to discover
-regions correlated with a variable of interest such as for example a pathology
-indicator. Voxel-based analysis methods perform a statistical test at each
-voxel and are prone to false positives due to multiple testing, or when
-corrected for multiple testing may miss regions of interest. Component based
-approaches, such as principal or independent component analysis provide an
-approach to mitigate multiple testing, by testing for correlations to projections
-of the data to the components. We propose a spatially regularized component
-analysis approach to find components for image data sets that are spatially
-localized and smooth. We show that the proposed approach leads to components
-that are easier to interpret and can improve predictive performance
-when used with linear regression models. We develop an efficient optimization
-approach using the Grassmannian projection kernel and a randomized SVD. The
-proposed optimization is capable to deal with data sets to large too fit all at
-once into memory. We demonstrate the approach with an application to study
-Alzheimer's disease using over 1200 images from the OASIS-3 data set.},
-  note = {accepted},
-  OPTkey = 	 {},
-  OPTeditor = 	 {},
-  OPTvolume = 	 {},
-  OPTnumber = 	 {},
-  OPTseries = 	 {},
-  OPTpages = 	 {},
-  OPTmonth = 	 {},
-  OPTaddress = 	 {},
-  OPTorganization = {},
-  OPTpublisher = {},
-  OPTannote = 	 {},
-  keywords = 	 {MICCAI,statistics,brain},
-}
-
-@Conference{pre_liu2020_miccai,
-  author = 	 {Peirong Liu and Yueh Lee and Stephen Aylward and Marc Niethammer},
-  title = 	 {{PIANO}: Perfusion Imaging via Advection-diffusion},
-  booktitle = 	 {Medical Image Computing and Computer Assisted Intervention - {MICCAI}},
-  year = 	 {2020},
-  url = {https://drive.google.com/file/d/1goRkNQ27N262Fg-arCzCZG_Cx4-pMqYV},
-  abstract = {Perfusion imaging (PI) is clinically used to assess strokes and brain tumors. Commonly used PI approaches based on magnetic resonance imaging (MRI) or computed tomography (CT) image the effect of a contrast agent moving through blood vessels and into tissue. Contrast-agent free approaches, for example, based on intravoxel incoherent motion, also exist, but are so far not routinely used clinically. MR or CT perfusion imaging based on contrast agents relies on the estimation of the arterial input function (AIF) to approximately model tissue perfusion, neglecting spatial dependencies. Reliably estimating the AIF is also non-trivial, leading to difficulties with standardizing perfusion measures. In this work we therefore propose a data-assimilation approach (PIANO) which estimates the velocity and diffusion fields of an advection-diffusion model best explaining the contrast dynamics. PIANO accounts for spatial dependencies and neither requires estimating the AIF nor relies on a particular contrast agent bolus shape. Specifically, we propose a convenient parameterization of the estimation problem, a numerical estimation approach, and extensively evaluate PIANO. We demonstrate that PIANO can successfully resolve velocity and diffusion field ambiguities and results in sensitive measures for the assessment of stroke, comparing favorably to conventional measures of perfusion.},
-  note = {accepted},
-  OPTkey = 	 {},
-  OPTeditor = 	 {},
-  OPTvolume = 	 {},
-  OPTnumber = 	 {},
-  OPTseries = 	 {},
-  OPTpages = 	 {},
-  OPTmonth = 	 {},
-  OPTaddress = 	 {},
-  OPTorganization = {},
-  OPTpublisher = {},
-  OPTannote = 	 {},
-  keywords = {MICCAI,perfusion,brain}
-}
-
-@Conference{pre_tian2020_miccai,
-  author = 	 {Lin Tian and Connor Puett and Peirong Liu and Zhengyang Shen and Stephen Aylward and Yueh Lee and Marc Niethammer},
-  title = 	 {Fluid registration between lung CT and stationary chest tomosynthesis images},
-  booktitle = 	 {Medical Image Computing and Computer Assisted Intervention - {MICCAI}},
-  year = 	 {2020},
-  url = {https://drive.google.com/file/d/1-gORB0x9qa8hDpnpLSISXGmb9I6j9SG9},
-  abstract = {Registration is widely used in image-guided therapy and image-guided surgery to estimate spatial correspondences between organs of interest between planning and treatment images. However, while high-quality computed tomography (CT) images are often available at planning time, limited angle acquisitions are frequently used during treatment because of radiation concerns or imaging time constraints. This requires algorithms to register CT images based on limited angle acquisitions. We, therefore, formulate a 3D/2D registration approach which infers a 3D deformation based on measured projections and digitally reconstructed radiographs of the CT. Most 3D/2D registration approaches use simple transformation models or require complex mathematical derivations to formulate the underlying optimization problem. Instead, our approach entirely relies on differentiable operations which can be combined with modern computational toolboxes supporting automatic differentiation. This then allows for rapid prototyping, integration with deep neural networks, and to support a variety of transformation models including fluid flow models. We demonstrate our approach for the registration between CT and stationary chest tomosynthesis (sDCT) images and show how it naturally leads to an iterative image reconstruction approach.},
-  note = {accepted},
-  OPTkey = 	 {},
-  OPTeditor = 	 {},
-  OPTvolume = 	 {},
-  OPTnumber = 	 {},
-  OPTseries = 	 {},
-  OPTpages = 	 {},
-  OPTmonth = 	 {},
-  OPTaddress = 	 {},
-  OPTorganization = {},
-  OPTpublisher = {},
-  OPTannote = 	 {},
-  keywords = {MICCAI,registration,lung,LDDMM}
-}
-
-@Conference{pre_shen2020_miccai,
-  author = 	 {Zhengyang Shen and Zhenlin Xu and Sahin Olut and Marc Niethammer},
-  title = 	 {Anatomical Data Augmentation via Fluid-based Image Registration},
-  booktitle = 	 {Medical Image Computing and Computer Assisted Intervention - {MICCAI}},
-  year = 	 {2020},
-  url = {https://drive.google.com/file/d/1WzuwW5Hk8LIGEUCfQOrTHle3B1A1LroY},
-  abstract = {We introduce a fluid-based image augmentation method for medical image analysis. In contrast to existing methods, our framework generates anatomically meaningful images via interpolation from the geodesic subspace underlying given samples. Our approach consists of three steps: 1) given a source image and a set of target images, we construct a geodesic subspace using the Large Deformation Diffeomorphic Metric Mapping (LDDMM) model; 2) we sample transformations from the resulting geodesic subspace; 3) we obtain deformed images and segmentations via interpolation. Experiments on brain (LPBA) and knee (OAI) data illustrate the performance of our approach on two tasks: 1) data augmentation during training and testing for image segmentation; 2) one-shot learning for single atlas image segmentation. We demonstrate that our approach generates anatomically meaningful data and improves performance on these tasks over competing approaches.},
-  note = {accepted},
-  OPTkey = 	 {},
-  OPTeditor = 	 {},
-  OPTvolume = 	 {},
-  OPTnumber = 	 {},
-  OPTseries = 	 {},
-  OPTpages = 	 {},
-  OPTmonth = 	 {},
-  OPTaddress = 	 {},
-  OPTorganization = {},
-  OPTpublisher = {},
-  OPTannote = 	 {},
-  keywords = {MICCAI,registration,segmentation,brain,knee,LDDMM}
-}
-
-@Conference{pre_olut2020_eccv,
-  author = 	 {Sahin Olut and Zhengyang Shen and Zhenlin Xu and Marc Niethammer},
-  title = 	 {Adversarial Data Augmentation \\ via  Deformation Statistics},
-  booktitle = 	 {Computer Vision - {ECCV} 2020 - 16th European Conference},
-  year = 	 {2020},
-  abstract = {Deep learning models have been successful in computer vision and medical image analysis. However, training these models frequently requires large labeled image sets whose creation is often very time and labor intensive, for example, in the context of 3D segmentations. Approaches capable of training deep segmentation networks with a limited number of labeled samples are therefore highly desirable. Data augmentation or semi-supervised approaches are commonly used to cope with limited labeled training data. However, the augmentation strategies for many existing approaches are either hand-engineered or require computationally demanding searches. To that end, we explore an augmentation strategy which builds statistical deformation models from unlabeled data via principal component analysis and uses the resulting statistical deformation space to augment the labeled training samples. Specifically, we obtain transformations via deep registration models. This allows for an intuitive control over plausible deformation magnitudes via the statistical model and, if combined with an appropriate deformation model, yields spatially regular transformations. To optimally augment a dataset we use an adversarial strategy integrated into our statistical deformation model. We demonstrate the effectiveness of our approach for the segmentation of knee cartilage from 3D magnetic resonance images. We show favorable performance to state-of-the-art augmentation approaches. },
-  note = {accepted},
-  OPTkey = 	 {},
-  OPTeditor = 	 {},
-  OPTvolume = 	 {},
-  OPTnumber = 	 {},
-  OPTseries = 	 {},
-  OPTpages = 	 {},
-  OPTmonth = 	 {},
-  OPTaddress = 	 {},
-  OPTorganization = {},
-  OPTpublisher = {},
-  OPTannote = 	 {},
-  keywords = {ECCV,registration,segmentation,knee,statistics,deep learning}
-}
 

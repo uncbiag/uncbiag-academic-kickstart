@@ -36,11 +36,11 @@ Congratulations to {{% mention "peirong-liu" %}}, {{% mention "lin-tian" %}}, {{
 
 ## MICCAI
 
-{{<putbib "/publication/pre-gerber-2020-miccai/index.md" "gm02" 3>}}
-{{<putbib "/publication/pre-liu-2020-miccai/index.md" "lya02" 3>}}
-{{<putbib "/publication/pre-tian-2020-miccai/index.md" "tps02" 3>}}
-{{<putbib "/publication/pre-shen-2020-miccai/index.md" "sxo02" 3>}}
+{{<putbib "/publication/dblp-confmiccai-gerber-n-20/index.md" "gm02" 3>}}
+{{<putbib "/publication/dblp-confmiccai-liu-lan-20/index.md" "lya02" 3>}}
+{{<putbib "/publication/dblp-confmiccai-tian-plsaln-20/index.md" "tps02" 3>}}
+{{<putbib "/publication/dblp-confmiccai-shen-xon-20/index.md" "sxo02" 3>}}
 
 ## ECCV
 
-{{<putbib "/publication/pre-olut-2020-eccv/index.md" "ozx02" 3>}}
+{{<putbib "/publication/dblp-confeccv-olut-sxgn-20/index.md" "ozx02" 3>}}

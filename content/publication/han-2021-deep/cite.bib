@@ -1,0 +1,23 @@
+@article{han2021deep,
+ abstract = {Purpose: Accurate deformable registration between computed tomography (CT) and cone-beam CT (CBCT) images of pancreatic cancer patients treated with high biologically effective radiation doses is essential to assess changes in organ-at-risk (OAR) locations and shapes and to compute delivered dose. This study describes the development and evaluation of a deep-learning (DL) registration model to predict OAR segmentations on the CBCT derived from segmentations on the planning CT. Methods: The DL model is trained with CT-CBCT image pairs of the same patient, on which OAR segmentations of the small bowel, stomach, and duodenum have been manually drawn. A transformation map is obtained, which serves to warp the CT image and segmentations. In addition to a regularity loss and an image similarity loss, an OAR segmentation similarity loss is also used during training, which penalizes the mismatch between warped CT segmentations and manually drawn CBCT segmentations. At test time, CBCT segmentations are not required as they are instead obtained from the warped CT segmentations. In an IRB-approved retrospective study, a dataset consisting of 40 patients, each with one planning CT and two CBCT scans, was used in a fivefold cross-validation to train and evaluate the model, using physician-drawn segmentations as reference. Images were preprocessed to remove gas pockets. Network performance was compared to two intensity-based deformable registration algorithms (large deformation diffeomorphic metric mapping [LDDMM] and multimodality free-form [MMFF]) as baseline. Evaluated metrics were Dice similarity coefficient (DSC), change in OAR volume within a volume of interest (enclosing the low-dose PTV plus 1 cm margin) from planning CT to CBCT, and maximum dose to 5 cm3 of the OAR [D(5cc)]. Results: Processing time for one CT-CBCT registration with the DL model at test time was less than 5 seconds on a GPU-based system, compared to an average of 30 minutes for LDDMM optimization. For both small bowel and stomach/duodenum, the DL model yielded larger median DSC and smaller interquartile variation than either MMFF (paired t-test P < 10−4 for both type of OARs) or LDDMM (P < 10−3 and P = 0.03 respectively). Root-mean-square deviation (RMSD) of DL-predicted change in small bowel volume relative to reference was 22% less than for MMFF (P = 0.007). RMSD of DL-predicted stomach/duodenum volume change was 28% less than for LDDMM (P = 0.0001). RMSD of DL-predicted D(5cc) in small bowel was 39% less than for MMFF (P = 0.001); in stomach/duodenum, RMSD of DL-predicted D(5cc) was 18% less than for LDDMM (P < 10−3). Conclusions: The proposed deep network CT-to-CBCT deformable registration model shows improved segmentation accuracy compared to intensity-based algorithms and achieves an order-of-magnitude reduction in processing time.},
+ author = {Xu Han and
+Jun Hong and
+Marsha Reyngold and
+Christopher Crane and
+John Cuaron and
+Carla Hajj and
+Justin Mann and
+Melissa Zinovoy and
+Hastings Greer and
+Ellen Yorke and
+Gig Mageras and
+Marc Niethammer},
+ doi = {10.1002/mp.14906},
+ journal = {Medical Physics},
+ keywords = {Medical Physics,pancreas,cancer,registration},
+ publisher = {Wiley Online Library},
+ title = {Deep-learning-based image registration and automatic segmentation of organs-at-risk in cone-beam CT scans from high-dose radiation treatment of pancreatic cancer},
+ url = {https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.14906},
+ year = {2021}
+}
+

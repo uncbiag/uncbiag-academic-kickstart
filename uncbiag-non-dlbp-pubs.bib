@@ -1,4 +1,104 @@
-@article{couture2018image,
+@article{liu2021perfusion,
+  title={Perfusion Imaging: An Advection Diffusion Approach},
+  author={Peirong Liu and
+  Yueh Z Lee and
+  Stephen R Aylward and
+  Marc Niethammer},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2021},
+  publisher={IEEE},
+  abstract={Perfusion imaging is of great clinical importance and is used to assess a wide range of diseases including strokes and brain tumors. Commonly used approaches for the quantitative analysis of perfusion images are based on measuring the effect of a contrast agent moving through blood vessels and into tissue. Contrast-agent free approaches, for example, based on intravoxel incoherent motion and arterial spin labeling, also exist, but are so far not routinely used clinically. Existing contrast-agent-dependent methods typically rely on the estimation of the arterial input function (AIF) to approximately model tissue perfusion. These approaches neglect spatial dependencies. Further, as reliably estimating the AIF is non-trivial, different AIF estimates may lead to different perfusion measures. In this work we therefore propose PIANO, an approach that provides additional insights into the perfusion process. PIANO estimates the velocity and diffusion fields of an advection-diffusion model best explaining the contrast dynamics without using an AIF. PIANO accounts for spatial dependencies and neither requires estimating the AIF nor relies on a particular contrast agent bolus shape. Specifically, we propose a convenient parameterization of the estimation problem, a numerical estimation approach, and extensively evaluate PIANO. Simulation experiments show the robustness and effectiveness of PIANO, along with its ability to distinguish between advection and diffusion. We further apply PIANO on a public brain magnetic resonance (MR) perfusion dataset of acute stroke patients, and demonstrate that PIANO can successfully resolve velocity and diffusion field ambiguities and results in sensitive measures for the assessment of stroke, comparing favorably to conventional measures of perfusion.},
+  url={https://drive.google.com/file/d/1KJ0oxeZiuDN3TpFGlb_iJ-sopOkLcUKP},
+  doi={10.1109/TMI.2021.3085828},
+  keyowrds={stroke,CT,perfusion}
+}
+
+@article{abumoussa2020computational,
+  title={Computational methods for visualizing and measuring verapamil efficacy for cerebral vasospasm},
+  author={Andrew Abumoussa and
+  Alex Flores and
+  James Ho and
+  Marc Niethammer and
+  Deanna Sasaki-Adams and
+  Yueh Z Lee},
+  journal={Scientific Reports},
+  volume={10},
+  number={1},
+  pages={1--8},
+  year={2020},
+  publisher={Nature Publishing Group},
+  abstract={Cerebral vasospasm is a dreaded sequelae of aneurysmal subarachnoid hemorrhage (aSAH), requiring timely intervention with therapeutic goals of improving brain perfusion. There are currently no standardized real-time, objective assessments of the interventional procedures performed to treat vasospasm. Here we describe real-time techniques to quantify cerebral perfusion during interventional cerebral angiography. We retrospectively analyzed 39 consecutive cases performed to treat clinical vasospasm and quantified the changes in perfusion metrics between pre- and post- verapamil administrations. With Digital Subtraction Angiography (DSA) perfusion analysis, we are able to identify hypoperfused territories and quantify the exact changes in cerebral perfusion for each individual case and vascular territory. We demonstrate that perfusion analysis for DSA can be performed in real time. This provides clinicians with a colorized map which directly visualizes hypoperfused tissue, combined with associated perfusion statistics. Quantitative thresholds and analysis based on DSA perfusion may assist with real-time dosage estimation and help predict response to treatment, however future prospective analysis is required for validation.},
+  url={https://www.nature.com/articles/s41598-020-75365-2},
+  doi={10.1038/s41598-020-75365-2},
+  keywords={vasospasm}
+}
+
+@article{han2021deep,
+  title={Deep-learning-based image registration and automatic segmentation of organs-at-risk in cone-beam CT scans from high-dose radiation treatment of pancreatic cancer},
+  author={Xu Han and
+  Jun Hong and
+  Marsha Reyngold and
+  Christopher Crane and
+  John Cuaron and
+  Carla Hajj and
+  Justin Mann and
+  Melissa Zinovoy and
+  Hastings Greer and
+  Ellen Yorke and
+  Gig Mageras and
+  Marc Niethammer},
+  journal={Medical Physics},
+  year={2021},
+  publisher={Wiley Online Library},
+  url={https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.14906},
+  doi={10.1002/mp.14906},
+  abstract={Purpose: Accurate deformable registration between computed tomography (CT) and cone-beam CT (CBCT) images of pancreatic cancer patients treated with high biologically effective radiation doses is essential to assess changes in organ-at-risk (OAR) locations and shapes and to compute delivered dose. This study describes the development and evaluation of a deep-learning (DL) registration model to predict OAR segmentations on the CBCT derived from segmentations on the planning CT. Methods: The DL model is trained with CT-CBCT image pairs of the same patient, on which OAR segmentations of the small bowel, stomach, and duodenum have been manually drawn. A transformation map is obtained, which serves to warp the CT image and segmentations. In addition to a regularity loss and an image similarity loss, an OAR segmentation similarity loss is also used during training, which penalizes the mismatch between warped CT segmentations and manually drawn CBCT segmentations. At test time, CBCT segmentations are not required as they are instead obtained from the warped CT segmentations. In an IRB-approved retrospective study, a dataset consisting of 40 patients, each with one planning CT and two CBCT scans, was used in a fivefold cross-validation to train and evaluate the model, using physician-drawn segmentations as reference. Images were preprocessed to remove gas pockets. Network performance was compared to two intensity-based deformable registration algorithms (large deformation diffeomorphic metric mapping [LDDMM] and multimodality free-form [MMFF]) as baseline. Evaluated metrics were Dice similarity coefficient (DSC), change in OAR volume within a volume of interest (enclosing the low-dose PTV plus 1 cm margin) from planning CT to CBCT, and maximum dose to 5 cm3 of the OAR [D(5cc)]. Results: Processing time for one CT-CBCT registration with the DL model at test time was less than 5 seconds on a GPU-based system, compared to an average of 30 minutes for LDDMM optimization. For both small bowel and stomach/duodenum, the DL model yielded larger median DSC and smaller interquartile variation than either MMFF (paired t-test P < 10−4 for both type of OARs) or LDDMM (P < 10−3 and P = 0.03 respectively). Root-mean-square deviation (RMSD) of DL-predicted change in small bowel volume relative to reference was 22\% less than for MMFF (P = 0.007). RMSD of DL-predicted stomach/duodenum volume change was 28\% less than for LDDMM (P = 0.0001). RMSD of DL-predicted D(5cc) in small bowel was 39\% less than for MMFF (P = 0.001); in stomach/duodenum, RMSD of DL-predicted D(5cc) was 18\% less than for LDDMM (P < 10−3). Conclusions: The proposed deep network CT-to-CBCT deformable registration model shows improved segmentation accuracy compared to intensity-based algorithms and achieves an order-of-magnitude reduction in processing time.},
+  keywords={Medical Physics,pancreas,cancer,registration}
+}
+
+@article{young2021general,
+  title={General anaesthesia during infancy reduces white matter micro-organisation in developing rhesus monkeys},
+  author={Jeffrey T Young and
+  Roza M Vlasova and
+  Brittany R Howell and
+  Rebecca C Knickmeyer and
+  Elyse Morin and
+  Kaela I Kuitchoua and
+  Gabriele R Lubach and
+  Jean Noel and
+  Xiaoping Hu and
+  Yundi Shi and
+  Gibson Caudill and
+  Andrew L Alexander and
+  Marc Niethammer and
+  Merle G Paule and
+  Christopher L Coe and
+  Mar Sanchez and
+  Martin Styner},
+  journal={British Journal of Anaesthesia},
+  volume={126},
+  number={4},
+  pages={845--853},
+  year={2021},
+  publisher={Elsevier},
+  abstract={Background: Non-human primates are commonly used in neuroimaging research for which general anaesthesia or sedation is typically required for data acquisition. In this analysis, the cumulative effects of exposure to ketamine, Telazol® (tiletamine and zolazepam), and the inhaled anaesthetic isoflurane on early brain development were evaluated in two independent cohorts of typically developing rhesus macaques. Methods: Diffusion MRI scans were analysed from 43 rhesus macaques (20 females and 23 males) at either 12 or 18 months of age from two separate primate colonies. Results: Significant, widespread reductions in fractional anisotropy with corresponding increased axial, mean, and radial diffusivity were observed across the brain as a result of repeated anaesthesia exposures. These effects were dose dependent and remained after accounting for age and sex at time of exposure in a generalised linear model. Decreases of up to 40\% in fractional anisotropy were detected in some brain regions. Conclusions: Multiple exposures to commonly used anaesthetics were associated with marked changes in white matter microstructure. This study is amongst the first to examine clinically relevant anaesthesia exposures on the developing primate brain. It will be important to examine if, or to what degree, the maturing brain can recover from these white matter changes.},
+  keywords={anesthesia,DWI},
+  url={https://www.sciencedirect.com/science/article/abs/pii/S0007091220310515},
+  doi={10.1016/j.bja.2020.12.029}
+}
+
+@inproceedings{pre-liu2021-cvpr,
+ abstract = {Transport processes are ubiquitous. They are, for example, at the heart of optical flow approaches; or of perfusion imaging, where blood transport is assessed, most commonly by injecting a tracer. An advection-diffusion equation is widely used to describe these transport phenomena. Our goal is estimating the underlying physics of advection-diffusion equations, expressed as velocity and diffusion tensor fields. We propose a learning framework (YETI) building on an auto-encoder structure between 2D and 3D image time-series, which incorporates the advection-diffusion model. To help with identifiability, we develop an advection-diffusion simulator which allows pre-training of our model by supervised learning using the velocity and diffusion tensor fields. Instead of directly learning these velocity and diffusion tensor fields, we introduce representations that assure incompressible flow and symmetric positive semi-definite diffusion fields and demonstrate the additional benefits of these representations on improving estimation accuracy. We further use transfer learning to apply YETI on a public brain magnetic resonance (MR) perfusion dataset of stroke patients and show its ability to successfully distinguish stroke lesions from normal brain regions via the estimated velocity and diffusion tensor fields.},
+ author = {Peirong Liu and Lin Tian and Yubo Zhang and Stephen Aylward and Yueh Lee and Marc Niethammer},
+ booktitle = {IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021},
+ keywords = {PDEs,perfusion,stroke,brain,CVPR}, 
+ publisher = {Computer Vision Foundation / IEEE}, 
+ title = {Discovering Hidden Physics Behind Transport Dynamics},
+ url = {https://drive.google.com/file/d/1-YzalmclgVEkzBjq3-_pq3VRgv-pKTf-},
+ year = {2021}
+}
+
+@article{pre-couture2018image,
   title={Image analysis with deep learning to predict breast cancer grade, ER status, histologic subtype, and intrinsic subtype},
   author={Heather D. Couture and Lindsay A. Williams and Joseph Geradts and Sarah J. Nyante and Ebonee N. Butler and J. S. Marron and Charles M. Perou and Melissa A. Troester and Marc Niethammer},
   journal={NPJ breast cancer},

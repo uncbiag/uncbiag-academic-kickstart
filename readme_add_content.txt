@@ -17,7 +17,7 @@ Bibliography:
 
 To add the biliography simply add your entry in the corresponding bib file. Ideally as obtained from DBLP (if available -- will not be the case for the newest ones).
 
-To associate a PDF upload it to the Google drive for the respective year. Make sure you give it a readonable name of the form: myname_2020_great_paper.pdf. Then follow the following steps:
+To associate a PDF upload it to the Google drive for the respective year. This should be in the uncbiag-public-pdfs folder on Google drive. Make sure you give it a readonable name of the form: myname_2020_great_paper.pdf. Then follow the following steps:
 
 1, Click on it in the google drive to open it.
 2. Click on the three dots in the top right and select 'Open in new window'.
