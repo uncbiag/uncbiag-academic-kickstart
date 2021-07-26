@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "One CVPR and two accepted ICCV papers"
+title: "One CVPR and two Accepted ICCV Papers"
 subtitle: ""
 summary: ""
 authors: []
