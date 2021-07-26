@@ -29,8 +29,11 @@ projects: []
 ---
 Congratulations to {{% mention "zhipeng-ding" %}}, {{% mention "hastings-greer" %}}, and {{% mention "peirong-liu" %}}  who got their ICCV and CVPR papers accepted. These papers explore local probability calibration for semantic segmentation {{<cite "zd21">}}, non-parametric image registration by inverse consistency {{<cite "hg21">}} which allows eliminating almost all registration hyperparameters, and perfusion imaging via deep learning {{<cite "pl21">}}.
 
-## MICCAI
+## ICCV 2021
 
 {{<putbib "/publication/dblp-journalscorrabs-2008-05105/index.md" "zd21" 3>}}
 {{<putbib "/publication/dblp-journalscorrabs-2105-04459/index.md" "hg21" 3>}}
+
+## CVPR 2021
+
 {{<putbib "/publication/pre-liu-2020-cvpr/index.md" "pl21" 3>}}
