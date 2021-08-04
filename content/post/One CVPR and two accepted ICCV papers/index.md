@@ -36,4 +36,4 @@ Congratulations to {{% mention "zhipeng-ding" %}}, {{% mention "hastings-greer" 
 
 ## CVPR 2021
 
-{{<putbib "/publication/pre-liu-2020-cvpr/index.md" "pl21" 3>}}
+{{<putbib "/publication/pre-liu-2021-cvpr/index.md" "pl21" 3>}}
