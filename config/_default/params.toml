@@ -100,7 +100,7 @@ address = {street = "Campus Box 3175", city = "Chapel Hill", region = "NC", post
 coordinates = {latitude = "35.909837", longitude = "-79.053120"}
 
 # Directions for visitors to locate you.
-directions = "236 Fred Brooks Building (FB236)"
+directions = "250 Fred Brooks Building (FB250)"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
