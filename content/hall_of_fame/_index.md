@@ -22,6 +22,12 @@ header:
     <th>Title</th>
     <th>Year</th>
   </tr>
+    <tr>
+    <td>Zhipeng</td>
+    <td>Ding</td>
+    <td>Toward Solving Groupwise Medical Image Analysis Problems with Deep Learning</td>
+    <td>2022</td>
+  </tr>
   <tr>
     <td>Xu</td>
     <td>Han</td>
@@ -66,7 +72,7 @@ header:
   </tr>
 </table>
 
-
+{{<putbib "/publication/phd-zhipeng-ding-2021/index.md" "zd21" 3>}}
 {{<putbib "/publication/phd-xu-han-2020/index.md" "xh20" 3>}}
 {{<putbib "/publication/phd-heather-couture-2019/index.md" "hc19" 3>}}
 {{<putbib "/publication/phd-istvan-csapo-2018/index.md" "ic18" 3>}}
