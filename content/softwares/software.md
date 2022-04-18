@@ -79,4 +79,41 @@ subtitle = ""
  css_class = ""
 +++
 
-We open-sourced a variety of software packages. Many of them focusing on image registration.
+We open-sourced a variety of software packages. Many of them focusing on image registration. See the detailed descriptions as tiles and quick links to the respective GitHub repositories below.
+
+**Quick links**
+
+<table style="width:100%">
+  <tr>
+    <th>Software</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/uncbiag/Aladdin">Aladdin</td> 
+    <td>Deep-learning based atlas building</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/uncbiag/easyreg">Easyreg</td> 
+    <td>Deep-learning image registration toolbox</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/uncbiag/ICON">ICON</td> 
+    <td>Deep-learning based inverse consistent image registration</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/uncbiag/LTS">LTS</td> 
+    <td>Local temperature scaling</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/uncbiag/OAI_analysis_2">OAI Analysis 2</td> 
+    <td>Image analysis tools for the Osteoarthritis Initiative image dataset</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/uncbiag/pediatric_airway_atlas">Pediatric Airway Atlas</td>
+    <td>Software tools to build and query an atlas of the upper airway in children</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/uncbiag/YETI-General">YETI</td>
+    <td>A deep learning approach for perfusion imaging</td>
+  </tr>
+</table>
