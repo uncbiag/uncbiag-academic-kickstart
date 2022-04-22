@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Local Temperatutre Scaling"
+title: "Local Temperature Scaling"
 summary: ""
 authors: ["Marc Niethammer"]
 tags: ["deep learning", "probability calibration"]
