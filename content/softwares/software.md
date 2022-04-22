@@ -117,6 +117,10 @@ We open-sourced a variety of software packages. Many of them focusing on image r
     <td>Point cloud registration</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/uncbiag/VoteNet-Family">VoteNet</td>
+    <td>A deep learning label fusion approach for multi-atlas segmentation</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/uncbiag/YETI-General">YETI</td>
     <td>A deep learning approach for perfusion imaging</td>
   </tr>
