@@ -2,6 +2,17 @@
 
 # Before running this for the first time (and possibly making it a cron job) clone the repository
 
+# to make it a cron job, log into your server and do the following
+#
+# crontab -e
+#
+# add the following (adapted to your personal case) to your crontab
+#
+#  0 0 * * * /afs/cs.unc.edu/home/mn/uncbiag-webpage/uncbiag_update_webpage_for_cron_job.script
+#
+# This will run it every midnight
+#
+
 # Here are some site-specific settings
 
 SCRIPT_DIRECTORY='/home/mn/uncbiag-webpage'
