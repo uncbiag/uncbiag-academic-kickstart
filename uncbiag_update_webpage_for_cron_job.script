@@ -12,6 +12,8 @@ HUGO_BINARY='/home/linuxbrew/.linuxbrew/bin/hugo'
 cd $SCRIPT_DIRECTORY
 rm -rf $GIT_REPOSITORY_DIRECTORY
 
+git config --global --add safe.directory /afs/cs.unc.edu/home/mn/uncbiag-webpage/uncbiag-academic-kickstart/themes/academic
+
 git clone https://github.com/uncbiag/uncbiag-academic-kickstart
 cd uncbiag-academic-kickstart
 git submodule update --init --recursive
@@ -33,5 +35,9 @@ rsync -v --checksum -r public/* $TARGET_DEPLOY_DIRECTORY
 # set the permissions
 chmod -R 755 $TARGET_DEPLOY_DIRECTORY
 
+# delete it
+rm -rf $GIT_REPOSITORY_DIRECTORY
+
 # once run, send an email
 echo Ran webpage update at `date` | mail -e -s "uncbiag webpage update" mn@cs.unc.edu
+
