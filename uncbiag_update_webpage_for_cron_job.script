@@ -4,11 +4,11 @@
 
 # to make it a cron job, log into your server and do the following
 #
-# crontab -e
+# crontab -u myusername -e
 #
 # add the following (adapted to your personal case) to your crontab
 #
-#  0 0 * * * /afs/cs.unc.edu/home/mn/uncbiag-webpage/uncbiag_update_webpage_for_cron_job.script
+#  0 0 * * * /home/myusername/uncbiag-webpage/uncbiag_update_webpage_for_cron_job.script
 #
 # This will run it every midnight
 #
@@ -23,7 +23,7 @@ HUGO_BINARY='/home/linuxbrew/.linuxbrew/bin/hugo'
 cd $SCRIPT_DIRECTORY
 rm -rf $GIT_REPOSITORY_DIRECTORY
 
-git config --global --add safe.directory /afs/cs.unc.edu/home/mn/uncbiag-webpage/uncbiag-academic-kickstart/themes/academic
+#git config --global --add safe.directory /afs/cs.unc.edu/home/mn/uncbiag-webpage/uncbiag-academic-kickstart/themes/academic
 
 git clone https://github.com/uncbiag/uncbiag-academic-kickstart
 cd uncbiag-academic-kickstart
