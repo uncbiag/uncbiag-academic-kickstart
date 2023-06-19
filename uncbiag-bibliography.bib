@@ -1,39 +1,522 @@
-@article{DBLP:journals/corr/abs-2105-04459,
-  author    = {Hastings Greer and
-               Roland Kwitt and
-               Fran{\c{c}}ois{-}Xavier Vialard and
-               Marc Niethammer},
-  title     = {{ICON:} Learning Regular Maps Through Inverse Consistency},
-  journal   = {CoRR},
-  volume    = {abs/2105.04459},
-  year      = {2021},
-  url       = {https://drive.google.com/file/d/1kaqRx9DXqB4ksDZ1ztuCKETVN9s8F8lg},
-  archivePrefix = {arXiv},
-  eprint    = {2105.04459},
-  timestamp = {Fri, 14 May 2021 12:13:30 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2105-04459.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org},
+@article{DBLP:journals/mia/GerberNEPDSAE23,
+  author       = {Samuel Gerber and
+                  Marc Niethammer and
+                  Ebrahim Ebrahim and
+                  Joseph Piven and
+                  Stephen R. Dager and
+                  Martin Styner and
+                  Stephen R. Aylward and
+                  Andinet Enquobahrie},
+  title        = {Optimal transport features for morphometric population analysis},
+  journal      = {Medical Image Anal.},
+  volume       = {84},
+  pages        = {102696},
+  year         = {2023},
+  url          = {https://doi.org/10.1016/j.media.2022.102696},
+  doi          = {10.1016/j.media.2022.102696},
+  timestamp    = {Sun, 12 Feb 2023 18:49:22 +0100},
+  biburl       = {https://dblp.org/rec/journals/mia/GerberNEPDSAE23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract     = {Brain pathologies often manifest as partial or complete loss of tissue. The goal of many neuroimaging studies is to capture the location and amount of tissue changes with respect to a clinical variable of interest, such as disease progression. Morphometric analysis approaches capture local differences in the distribution of tissue or other quantities of interest in relation to a clinical variable. We propose to augment morphometric analysis with an additional feature extraction step based on unbalanced optimal transport. The optimal transport feature extraction step increases statistical power for pathologies that cause spatially dispersed tissue loss, minimizes sensitivity to shifts due to spatial misalignment or differences in brain topology, and separates changes due to volume differences from changes due to tissue location. We demonstrate the proposed optimal transport feature extraction step in the context of a volumetric morphometric analysis of the OASIS-1 study for Alzheimer’s disease. The results demonstrate that the proposed approach can identify tissue changes and differences that are not otherwise measurable.},
+  keywords     = {brain,MEDIA}
+}
+
+@article{DBLP:journals/corr/abs-2303-06493,
+  author       = {Qin Liu and
+                  Meng Zheng and
+                  Benjamin Planche and
+                  Zhongpai Gao and
+                  Terrence Chen and
+                  Marc Niethammer and
+                  Ziyan Wu},
+  title        = {Exploring Cycle Consistency Learning in Interactive Volume Segmentation},
+  journal      = {CoRR},
+  volume       = {abs/2303.06493},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2303.06493},
+  doi          = {10.48550/arXiv.2303.06493},
+  eprinttype    = {arXiv},
+  eprint       = {2303.06493},
+  timestamp    = {Thu, 16 Mar 2023 16:04:57 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2303-06493.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract     = {Interactive volume segmentation can be approached via two decoupled modules: interaction-to-segmentation and segmentation propagation. Given a medical volume, a user first segments a slice (or several slices) via the interaction module and then propagates the segmentation(s) to the remaining slices. The user may repeat this process multiple times until a sufficiently high volume segmentation quality is achieved. However, due to the lack of human correction during propagation, segmentation errors are prone to accumulate in the intermediate slices and may lead to sub-optimal performance. To alleviate this issue, we propose a simple yet effective cycle consistency loss that regularizes an intermediate segmentation by referencing the accurate segmentation in the starting slice. To this end, we introduce a backward segmentation path that propagates the intermediate segmentation back to the starting slice using the same propagation network. With cycle consistency training, the propagation network is better regularized than in standard forward-only training approaches. Evaluation results on challenging benchmarks such as AbdomenCT-1k and OAI-ZIB demonstrate the effectiveness of our method. To the best of our knowledge, we are the first to explore cycle consistency learning in interactive volume segmentation.},
+  keywords = {deep learning,segmentation,interactive}
+}
+
+@article{DBLP:journals/corr/abs-2303-09234,
+  author       = {Yining Jiao and
+                  Carlton J. Zdanski and
+                  Julia S. Kimbell and
+                  Andrew Prince and
+                  Cameron Worden and
+                  Samuel Kirse and
+                  Christopher Rutter and
+                  Benjamin Shields and
+                  William Dunn and
+                  Jisan Mahmud and
+                  Marc Niethammer},
+  title        = {{NAISR:} {A} 3D Neural Additive Model for Interpretable Shape Representation},
+  journal      = {CoRR},
+  volume       = {abs/2303.09234},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2303.09234},
+  doi          = {10.48550/arXiv.2303.09234},
+  eprinttype    = {arXiv},
+  eprint       = {2303.09234},
+  timestamp    = {Mon, 20 Mar 2023 15:23:19 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2303-09234.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Deep implicit functions (DIFs) have emerged as a powerful paradigm for many computer vision tasks such as 3D shape reconstruction, generation, registration, completion, editing, and understanding. However, given a set of 3D shapes with associated covariates there is at present no shape representation method which allows to precisely represent the shapes while capturing the individual dependencies on each covariate. Such a method would be of high utility to researchers to discover knowledge hidden in a population of shapes. We propose a 3D Neural Additive Model for Interpretable Shape Representation (NAISR) which describes individual shapes by deforming a shape atlas in accordance to the effect of disentangled covariates. Our approach captures shape population trends and allows for patient-specific predictions through shape transfer. NAISR is the first approach to combine the benefits of deep implicit shape representations with an atlas deforming according to specified covariates. Although our driving problem is the construction of an airway atlas, NAISR is a general approach for modeling, representing, and investigating shape populations. We evaluate NAISR with respect to shape reconstruction, shape disentanglement, shape evolution, and shape transfer for the pediatric upper airway. Our experiments demonstrate that NAISR achieves competitive shape reconstruction performance while retaining interpretability.},
+  keywords = {deep learning,shape,interpretability}
+}
+
+
+@inproceedings{DBLP:conf/iccv/GreerKVN21,
+  author       = {Hastings Greer and
+                  Roland Kwitt and
+                  Fran{\c{c}}ois{-}Xavier Vialard and
+                  Marc Niethammer},
+  title        = {{ICON:} Learning Regular Maps Through Inverse Consistency},
+  booktitle    = {2021 {IEEE/CVF} International Conference on Computer Vision, {ICCV}
+                  2021, Montreal, QC, Canada, October 10-17, 2021},
+  pages        = {3376--3385},
+  publisher    = {{IEEE}},
+  year         = {2021},
+  url          = {https://drive.google.com/file/d/1kaqRx9DXqB4ksDZ1ztuCKETVN9s8F8lg},
+  doi          = {10.1109/ICCV48922.2021.00338},
+  timestamp    = {Fri, 11 Mar 2022 10:01:59 +0100},
+  biburl       = {https://dblp.org/rec/conf/iccv/GreerKVN21.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
   abstract = {Learning maps between data samples is fundamental. Applications range from representation learning, image translation and generative modeling, to the estimation of spatial deformations. Such maps relate feature vectors, or map between feature spaces. Well-behaved maps should be regular, which can be imposed explicitly or may emanate from the data itself. We explore what induces regularity for spatial transformations, e.g., when computing image registrations. Classical optimization-based models compute maps between pairs of samples and rely on an appropriate regularizer for well-posedness. Recent deep learning approaches have attempted to avoid using such regularizers altogether by relying on the sample population instead. We explore if it is possible to obtain spatial regularity using an inverse consistency loss only and elucidate what explains map regularity in such a context. We find that deep networks combined with an inverse consistency loss and randomized off-grid interpolation yield well behaved, approximately diffeomorphic, spatial transformations. Despite the simplicity of this approach, our experiments present compelling evidence, on both synthetic and real data, that regular maps can be obtained without carefully tuned explicit regularizers, while achieving competitive registration performance.},
   keywords = {deep learning,knee,registration,ICCV}
 }
 
-@article{DBLP:journals/corr/abs-2008-05105,
-  author    = {Zhipeng Ding and
-               Xu Han and
-               Peirong Liu and
-               Marc Niethammer},
-  title     = {Local Temperature Scaling for Probability Calibration},
-  journal   = {CoRR},
-  volume    = {abs/2008.05105},
-  year      = {2020},
-  url       = {https://drive.google.com/file/d/1XDPwmr4iBZaY06OebVhKqwD_ZaARBL8X},
-  archivePrefix = {arXiv},
-  eprint    = {2008.05105},
-  timestamp = {Sun, 16 Aug 2020 17:19:29 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2008-05105.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org},
+@inproceedings{DBLP:conf/nips/ShenFLCEEN21,
+  author       = {Zhengyang Shen and
+                  Jean Feydy and
+                  Peirong Liu and
+                  Ariel Hern{\'{a}}n Curiale and
+                  Rub{\'{e}}n San Jos{\'{e}} Est{\'{e}}par and
+                  Ra{\'{u}}l San Jos{\'{e}} Est{\'{e}}par and
+                  Marc Niethammer},
+  editor       = {Marc'Aurelio Ranzato and
+                  Alina Beygelzimer and
+                  Yann N. Dauphin and
+                  Percy Liang and
+                  Jennifer Wortman Vaughan},
+  title        = {Accurate Point Cloud Registration with Robust Optimal Transport},
+  booktitle    = {Advances in Neural Information Processing Systems 34: Annual Conference
+                  on Neural Information Processing Systems 2021, NeurIPS 2021, December
+                  6-14, 2021, virtual},
+  pages        = {5373--5389},
+  year         = {2021},
+  url          = {https://drive.google.com/file/d/1gquq0Ha8bDUeXMl03ujYSKbIJzop5KVS},
+  timestamp    = {Tue, 03 May 2022 16:20:47 +0200},
+  biburl       = {https://dblp.org/rec/conf/nips/ShenFLCEEN21.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {This work investigates the use of robust optimal transport (OT) for shape matching. Specifically, we show that recent OT solvers improve both optimization-based
+and deep learning methods for point cloud registration, boosting accuracy at an affordable computational cost. This manuscript starts with a practical overview of modern OT theory. We then provide solutions to the main difficulties in using this framework for shape matching. Finally, we showcase the performance of transport-enhanced registration models on a wide range of challenging tasks: rigid registration for partial shapes; scene flow estimation on the Kitti dataset; and nonparametric registration of lung vascular trees between inspiration and expiration. Our OT-based methods achieve state-of-the-art results on Kitti and for the challenging lung registration task, both in terms of accuracy and scalability. We also release PVT1010, a new public dataset of 1,010 pairs of lung vascular trees with densely sampled points. This dataset provides a challenging use case for point cloud registration algorithms with highly complex shapes and deformations. Our work demonstrates that robust OT enables fast pre-alignment and fine-tuning for a wide range of registration models, thereby providing a new key method for the computer vision toolbox. Our code and dataset are available online at: https://github.com/uncbiag/robot.},
+  keywords = {registration,point cloud,lung,deep learning,NeurIPS}
+}
+
+@article{DBLP:journals/corr/abs-2303-10249,
+  author       = {Boqi Chen and
+                  Marc Niethammer},
+  title        = {{MRIS:} {A} Multi-modal Retrieval Approach for Image Synthesis on
+                  Diverse Modalities},
+  journal      = {CoRR},
+  volume       = {abs/2303.10249},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2303.10249},
+  doi          = {10.48550/arXiv.2303.10249},
+  eprinttype    = {arXiv},
+  eprint       = {2303.10249},
+  timestamp    = {Wed, 22 Mar 2023 14:41:36 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2303-10249.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Multiple imaging modalities are often used for disease diagnosis, prediction, or population-based analyses. However, not all modalities might be available due to cost, different study designs, or changes in imaging technology. If the differences between the types of imaging are small, data harmonization approaches can be used; for larger changes, direct image synthesis approaches have been explored. In this paper, we develop an approach based on multi-modal metric learning to synthesize images of diverse modalities. We use metric learning via multi-modal image retrieval, resulting in embeddings that can relate images of different modalities. Given a large image database, the learned image embeddings allow us to use k-nearest neighbor (k-NN) regression for image synthesis. Our driving medical problem is knee osteoarthritis (KOA), but our developed method is general after proper image alignment. We test our approach by synthesizing cartilage thickness maps obtained from 3D magnetic resonance (MR) images using 2D radiographs. Our experiments show that the proposed method outperforms direct image synthesis and that the synthesized thickness maps retain information relevant to downstream tasks such as progression prediction and Kellgren-Lawrence grading (KLG). Our results suggest that retrieval approaches can be used to obtain high-quality and meaningful image synthesis results given large image databases.},
+  keywords = {deep learning,embedding,retrieval,knee,MICCAI}
+}
+
+@article{DBLP:journals/corr/abs-2305-00067,
+  author       = {Nurislam Tursynbek and
+                  Marc Niethammer},
+  title        = {Unsupervised Discovery of 3D Hierarchical Structure with Generative
+                  Diffusion Features},
+  journal      = {CoRR},
+  volume       = {abs/2305.00067},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2305.00067},
+  doi          = {10.48550/arXiv.2305.00067},
+  eprinttype    = {arXiv},
+  eprint       = {2305.00067},
+  timestamp    = {Thu, 04 May 2023 16:57:18 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2305-00067.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Inspired by recent findings that generative diffusion models learn semantically meaningful representations, we use them to discover the intrinsic hierarchical structure in biomedical 3D images using unsupervised segmentation. We show that features of diffusion models from different stages of a U-Net-based ladder-like architecture capture different hierarchy levels in 3D biomedical images. We design three losses to train a predictive unsupervised segmentation network that encourages the decomposition of 3D volumes into meaningful nested subvolumes that represent a hierarchy. First, we pretrain 3D diffusion models and use the consistency of their features across subvolumes. Second, we use the visual consistency between subvolumes. Third, we use the invariance to photometric augmentations as a regularizer. Our models achieve better performance than prior unsupervised structure discovery approaches on challenging biologically-inspired synthetic datasets and on a real-world brain tumor MRI dataset.},
+  keywords = {deep learning,segmentation,unsupervised,diffusion,MICCAI}
+}
+
+@article{DBLP:journals/corr/abs-2305-00087,
+  author       = {Hastings Greer and
+                  Lin Tian and
+                  Fran{\c{c}}ois{-}Xavier Vialard and
+                  Roland Kwitt and
+                  Sylvain Bouix and
+                  Ra{\'{u}}l San Jos{\'{e}} Est{\'{e}}par and
+                  Richard Rushmore and
+                  Marc Niethammer},
+  title        = {Inverse Consistency by Construction for Multistep Deep Registration},
+  journal      = {CoRR},
+  volume       = {abs/2305.00087},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2305.00087},
+  doi          = {10.48550/arXiv.2305.00087},
+  eprinttype    = {arXiv},
+  eprint       = {2305.00087},
+  timestamp    = {Thu, 04 May 2023 16:57:18 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2305-00087.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Inverse consistency is a desirable property for image registration. We propose a simple technique to make a neural registration network inverse consistent by construction, as a consequence of its structure, as long as it parameterizes its output transform by a Lie group. We extend this technique to multi-step neural registration by composing many such networks in a way that preserves inverse consistency. This multi-step approach also allows for inverse-consistent coarse to fine registration. We evaluate our technique on synthetic 2-D data and four 3-D medical image registration tasks and obtain excellent registration accuracy while assuring inverse consistency.},
+  keywords = {deep learning,registration,inverse consistent}
+}
+
+@article{DBLP:journals/corr/abs-2305-03125,
+  author       = {Yifeng Shi and
+                  Marc Niethammer},
+  title        = {Multimodal Understanding Through Correlation Maximization and Minimization},
+  journal      = {CoRR},
+  volume       = {abs/2305.03125},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2305.03125},
+  doi          = {10.48550/arXiv.2305.03125},
+  eprinttype    = {arXiv},
+  eprint       = {2305.03125},
+  timestamp    = {Wed, 10 May 2023 16:08:41 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2305-03125.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Multimodal learning has mainly focused on learning large models on, and fusing feature representations from, different modalities for better performances on downstream tasks. In this work, we take a detour from this trend and study the intrinsic nature of multimodal data by asking the following questions: 1) Can we learn more structured latent representations of general multimodal data?; and 2) can we intuitively understand, both mathematically and visually, what the latent representations capture? To answer 1), we propose a general and lightweight framework, Multimodal Understanding Through Correlation Maximization and Minimization (MUCMM), that can be incorporated into any large pre-trained network. MUCMM learns both the common and individual representations. The common representations capture what is common between the modalities; the individual representations capture the unique aspect of the modalities. To answer 2), we propose novel scores that summarize the learned common and individual structures and visualize the score gradients with respect to the input, visually discerning what the different representations capture. We further provide mathematical intuitions of the computed gradients in a linear setting, and demonstrate the effectiveness of our approach through a variety of experiments.},
+  keywords = {deep learning,multi modal,interpretability}
+}
+
+@article{DBLP:journals/cmbbeiv/Ben-ZikriHFSACN22,
+  author       = {Yehuda K. Ben{-}Zikri and
+                  Mar{\'{\i}}a Helguera and
+                  David Fetzer and
+                  David A. Shrier and
+                  Stephen R. Aylward and
+                  Deepak Chittajallu and
+                  Marc Niethammer and
+                  Nathan D. Cahill and
+                  Cristian A. Linte},
+  title        = {A feature-based affine registration method for capturing background
+                  lung tissue deformation for ground glass nodule tracking},
+  journal      = {Comput. methods Biomech. Biomed. Eng. Imaging Vis.},
+  volume       = {10},
+  number       = {5},
+  pages        = {521--539},
+  year         = {2022},
+  url          = {https://doi.org/10.1080/21681163.2021.1994471},
+  doi          = {10.1080/21681163.2021.1994471},
+  timestamp    = {Tue, 06 Dec 2022 13:15:05 +0100},
+  biburl       = {https://dblp.org/rec/journals/cmbbeiv/Ben-ZikriHFSACN22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract     = {Apparent changes in lung nodule size assessed via simple image-based measurements from computed tomography (CT) images may be compromised by the effect of the background lung tissue deformation on the nodule, leading to erroneous nodule tracking. We propose a feature-based affine registration method and study its performance vis-a-vis several other registration methods. We implement and test each registration method using a lung- and a lesion-centred region of interest on 10 patient CT datasets featuring 12 nodules. We evaluate each registration method according to the target registration error (TRE) computed across 30–50 homologous fiducial landmarks selected by expert radiologists. Our results show that the proposed feature-based affine lesion-centred registration yielded a 1.11.2 mm TRE, while a Symmetric Normalisation deformable registration yielded a 1.21.2 mm TRE, with a baseline least-square fit of the validation fiducial landmarks of 1.51.2 mm TRE. The proposed feature-based affine registration is computationally efficient, eliminates the need for nodule segmentation, and reduces the susceptibility of artificial deformations. We also conducted a pilot pre-clinical study that showed the proposed featurebased lesion-centred affine registration effectively compensates for the background lung tissue deformation and serves as a reliable baseline registration method prior to assessing lung nodule changes due to disease.},
+  keywords     = {registration,lung}
+}
+
+@article{DBLP:journals/mia/HuangXSLLNNGNZ22,
+  author       = {Chao Huang and
+                  Zhenlin Xu and
+                  Zhengyang Shen and
+                  Tianyou Luo and
+                  Tengfei Li and
+                  Daniel Nissman and
+                  Amanda Nelson and
+                  Yvonne Golightly and
+                  Marc Niethammer and
+                  Hongtu Zhu},
+  title        = {{DADP:} Dynamic abnormality detection and progression for longitudinal
+                  knee magnetic resonance images from the Osteoarthritis Initiative},
+  journal      = {Medical Image Anal.},
+  volume       = {77},
+  pages        = {102343},
+  year         = {2022},
+  url          = {https://doi.org/10.1016/j.media.2021.102343},
+  doi          = {10.1016/j.media.2021.102343},
+  timestamp    = {Wed, 07 Dec 2022 13:34:33 +0100},
+  biburl       = {https://dblp.org/rec/journals/mia/HuangXSLLNNGNZ22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract     = {Osteoarthritis (OA) is the most common disabling joint disease. Magnetic resonance (MR) imaging has been commonly used to assess knee joint degeneration due to its distinct advantage in detecting morphologic cartilage changes. Although several statistical methods over conventional radiography have been developed to perform quantitative cartilage analyses, little work has been done capturing the development and progression of cartilage lesions (or abnormal regions) and how they naturally progress. There are two major challenges, including (i) the lack of building spatial-temporal correspondences and correlations in cartilage thickness and (ii) the spatio-temporal heterogeneity in abnormal regions. The goal of this work is to propose a dynamic abnormality detection and progression (DADP) framework for quantitative cartilage analysis, while addressing the two challenges. First, spatial correspondences are established on flattened 2D cartilage thickness maps extracted from 3D knee MR images both across time within each subject and across all subjects. Second, a dynamic functional mixed effects model (DFMEM) is proposed to quantify abnormality progression across time points and subjects, while accounting for the spatio-temporal heterogeneity. We systematically evaluate our DADP using simulations and real data from the Osteoarthritis Initiative (OAI). Our results show that DADP not only effectively detects subject-specific dynamic abnormal regions, but also provides population-level statistical disease mapping and subgroup analysis.},
+  keywords     = {knee,MRI,cartilage,MEDIA}
+}
+
+@article{DBLP:journals/sadm/WeiN22,
+  author       = {Susan Wei and
+                  Marc Niethammer},
+  title        = {The fairness-accuracy Pareto front},
+  journal      = {Stat. Anal. Data Min.},
+  volume       = {15},
+  number       = {3},
+  pages        = {287--302},
+  year         = {2022},
+  url          = {https://drive.google.com/file/d/1vni9fw5azk7pFof9CSJbBinSqQwHGxlq},
+  doi          = {10.1002/sam.11560},
+  timestamp    = {Thu, 02 Jun 2022 16:43:02 +0200},
+  biburl       = {https://dblp.org/rec/journals/sadm/WeiN22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Algorithmic fairness seeks to identify and correct sources of bias in machine learning algorithms. Confoundingly, ensuring fairness often comes at the cost of accuracy. We provide formal tools in this work for reconciling this fundamental tension in algorithm fairness. Specifically, we put to use the concept of Pareto optimality from multiobjective optimization and seek the fairness‐accuracy Pareto front of a neural network classifier. We demonstrate that many existing algorithmic fairness methods are performing the so‐called linear scalarization scheme, which has severe limitations in recovering Pareto optimal solutions. We instead apply the Chebyshev scalarization scheme which is provably superior theoretically and no more computationally burdensome at recovering Pareto optimal solutions compared to the linear scheme.},
+  keywords = {fairness,Pareto front}
+}
+
+@inproceedings{DBLP:conf/cvpr/DingN22,
+  author       = {Zhipeng Ding and
+                  Marc Niethammer},
+  title        = {Aladdin: Joint Atlas Building and Diffeomorphic Registration Learning
+                  with Pairwise Alignment},
+  booktitle    = {{IEEE/CVF} Conference on Computer Vision and Pattern Recognition,
+                  {CVPR} 2022, New Orleans, LA, USA, June 18-24, 2022},
+  pages        = {20752--20761},
+  publisher    = {{IEEE}},
+  year         = {2022},
+  url          = {https://drive.google.com/file/d/1gdceCsBTiSute52GcgIHdf3lh9OkhjQa},
+  doi          = {10.1109/CVPR52688.2022.02012},
+  timestamp    = {Wed, 05 Oct 2022 16:31:19 +0200},
+  biburl       = {https://dblp.org/rec/conf/cvpr/DingN22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Atlas building and image registration are important tasks for medical image analysis. Once one or multiple atlases from an image population have been constructed, commonly (1) images are warped into an atlas space to study intra-subject or inter-subject variations or (2) a possibly probabilistic atlas is warped into image space to assign anatomical labels. Atlas estimation and nonparametric transformations are computationally expensive as they usually require numerical optimization. Additionally, previous approaches for atlas building often define similarity measures between a fuzzy atlas and each individual image, which may cause alignment difficulties because a fuzzy atlas does not exhibit clear anatomical structures in contrast to the individual images. This work explores using a convolutional neural network (CNN) to jointly predict the atlas and a stationary velocity field (SVF) parameterization for
+diffeomorphic image registration with respect to the atlas. Our approach does not require affine pre-registrations and utilizes pairwise image alignment losses to increase registration accuracy. We evaluate our model on 3D knee magnetic resonance images (MRI) from the OAI-ZIB dataset. Our results show that the proposed framework achieves better performance than other state-of-the-art image registration algorithms, allows for end-to-end training, and for fast inference at test time.},
+keywords = {MRI,atlas,knee,CVPR}
+}
+
+@inproceedings{DBLP:conf/cvpr/LiuLAN22,
+  author       = {Peirong Liu and
+                  Yueh Z. Lee and
+                  Stephen R. Aylward and
+                  Marc Niethammer},
+  title        = {Deep Decomposition for Stochastic Normal-Abnormal Transport},
+  booktitle    = {{IEEE/CVF} Conference on Computer Vision and Pattern Recognition,
+                  {CVPR} 2022, New Orleans, LA, USA, June 18-24, 2022},
+  pages        = {18769--18779},
+  publisher    = {{IEEE}},
+  year         = {2022},
+  url          = {https://drive.google.com/file/d/1E64NrDAHZyIXs21CC_qAEPlfTsHGASmU},
+  doi          = {10.1109/CVPR52688.2022.01823},
+  timestamp    = {Wed, 05 Oct 2022 16:31:19 +0200},
+  biburl       = {https://dblp.org/rec/conf/cvpr/LiuLAN22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Advection-diffusion equations describe a large family of natural transport processes, e.g., fluid flow, heat transfer,
+and wind transport. They are also used for optical flow and perfusion imaging computations. We develop a machine learning model, D2-SONATA, built upon a stochastic advection-diffusion equation, which predicts the velocity and diffusion fields that drive 2D/3D image time-series of transport. In particular, our proposed model incorporates a model of transport atypicality, which isolates abnormal differences between expected normal transport behavior and the observed transport. In a medical context such a normal-abnormal decomposition can be used, for example, to quantify pathologies. Specifically, our model identifies the advection and diffusion contributions from the transport time-series and simultaneously predicts an anomaly value field to provide a decomposition into normal and abnormal advection and diffusion behavior. To achieve improved estimation performance for the velocity and diffusion-tensor fields underlying the advection-diffusion process and for the estimation of the anomaly fields, we create a 2D/3D anomaly-encoded advection-diffusion simulator, which allows for supervised learning. We further apply our model on a brain perfusion dataset from ischemic stroke patients via transfer learning. Extensive comparisons demonstrate that our model successfully distinguishes stroke lesions (abnormal) from normal brain regions, while reconstructing the underlying velocity and diffusion tensor fields.},
+keywords = {perfusion,stroke,CVPR}
+}
+
+@inproceedings{DBLP:conf/eccv/LiuZPKCNW22,
+  author       = {Qin Liu and
+                  Meng Zheng and
+                  Benjamin Planche and
+                  Srikrishna Karanam and
+                  Terrence Chen and
+                  Marc Niethammer and
+                  Ziyan Wu},
+  editor       = {Shai Avidan and
+                  Gabriel J. Brostow and
+                  Moustapha Ciss{\'{e}} and
+                  Giovanni Maria Farinella and
+                  Tal Hassner},
+  title        = {PseudoClick: Interactive Image Segmentation with Click Imitation},
+  booktitle    = {Computer Vision - {ECCV} 2022 - 17th European Conference, Tel Aviv,
+                  Israel, October 23-27, 2022, Proceedings, Part {VI}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {13666},
+  pages        = {728--745},
+  publisher    = {Springer},
+  year         = {2022},
+  url          = {https://arxiv.org/pdf/2207.05282.pdf},
+  doi          = {10.1007/978-3-031-20068-7\_42},
+  timestamp    = {Mon, 05 Dec 2022 13:35:31 +0100},
+  biburl       = {https://dblp.org/rec/conf/eccv/LiuZPKCNW22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {The goal of click-based interactive image segmentation is to obtain precise object segmentation masks with limited user interaction, i.e., by a minimal number of user clicks. Existing methods require users to provide all the clicks: by first inspecting the segmentation mask and then providing points on mislabeled regions, iteratively. We ask the question: can our model directly predict where to click, so as to further reduce the user interaction cost? To this end, we propose PseudoClick, a generic framework that enables existing segmentation networks to propose candidate next clicks. These automatically generated clicks, termed pseudo clicks in this work, serve as an imitation of human clicks to refine the segmentation mask. We build PseudoClick on existing segmentation backbones and show how the click prediction mechanism leads to improved performance. We evaluate PseudoClick on 10 public datasets from different domains and modalities, showing that our model not only outperforms existing approaches but also demonstrates strong generalization capability in cross-domain evaluation. We obtain new state-of-theart results on several popular benchmarks, e.g., on the Pascal dataset, our model significantly outperforms existing state-of-the-art by reducing 12.4\% number of clicks to achieve 85\% IoU.},
+  keyword = {deep learning,segmentation,interactive,ECCV}
+}
+
+@inproceedings{DBLP:conf/miccai/LiuXJN22,
+  author       = {Qin Liu and
+                  Zhenlin Xu and
+                  Yining Jiao and
+                  Marc Niethammer},
+  editor       = {Linwei Wang and
+                  Qi Dou and
+                  P. Thomas Fletcher and
+                  Stefanie Speidel and
+                  Shuo Li},
+  title        = {iSegFormer: Interactive Segmentation via Transformers with Application
+                  to 3D Knee {MR} Images},
+  booktitle    = {Medical Image Computing and Computer Assisted Intervention - {MICCAI}
+                  2022 - 25th International Conference, Singapore, September 18-22,
+                  2022, Proceedings, Part {V}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {13435},
+  pages        = {464--474},
+  publisher    = {Springer},
+  year         = {2022},
+  url          = {https://drive.google.com/file/d/1CwtA_P7m1cwTI1YLRGOEc3LM7oXiJO5m},
+  doi          = {10.1007/978-3-031-16443-9\_45},
+  timestamp    = {Tue, 13 Dec 2022 14:39:06 +0100},
+  biburl       = {https://dblp.org/rec/conf/miccai/LiuXJN22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Interactive image segmentation has been widely applied to obtain high-quality voxel-level labels for medical images. The recent success of Transformers on various vision tasks has paved the road for developing Transformer-based interactive image segmentation approaches. However, these approaches remain unexplored and, in particular, have not been developed for 3D medical image segmentation. To fill this research gap, we investigate Transformer-based interactive image segmentation and its application to 3D medical images. This is a nontrivial task due to two main challenges: 1) limited memory for computationally inefficient Transformers and 2) limited labels for 3D medical images. To tackle the first challenge, we propose iSegFormer, a memory-efficient Transformer that combines a Swin Transformer with a lightweight multilayer perceptron (MLP) decoder. To address the second challenge, we pretrain iSegFormer on large amount of unlabeled datasets and then finetune it with only a limited number of segmented 2D slices. We further propagate the 2D segmentations obtained by iSegFormer to unsegmented slices in 3D images using a pre-existing segmentation propagation model pretrained on videos. We evaluate iSegFormer on the public OAI-ZIB dataset for interactive knee cartilage segmentation. Evaluation results show that iSegFormer outperforms its convolutional neural network (CNN) counterparts on interactive 2D knee cartilage segmentation, with competitive computational efficiency. When propagating the 2D interactive segmentations of 5 slices to other unprocessed slices within the same 3D volume, we achieve 82.2\% Dice score for 3D knee cartilage segmentation. Code is available at https://github.com/uncbiag/iSegFormer.},
+  keywords = {MICCAI,deep learning,segmentation,interactive}
+}
+
+@inproceedings{DBLP:conf/miccai/TianLEN22,
+  author       = {Lin Tian and
+                  Yueh Z. Lee and
+                  Ra{\'{u}}l San Jos{\'{e}} Est{\'{e}}par and
+                  Marc Niethammer},
+  editor       = {Linwei Wang and
+                  Qi Dou and
+                  P. Thomas Fletcher and
+                  Stefanie Speidel and
+                  Shuo Li},
+  title        = {LiftReg: Limited Angle 2D/3D Deformable Registration},
+  booktitle    = {Medical Image Computing and Computer Assisted Intervention - {MICCAI}
+                  2022 - 25th International Conference, Singapore, September 18-22,
+                  2022, Proceedings, Part {VI}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {13436},
+  pages        = {207--216},
+  publisher    = {Springer},
+  year         = {2022},
+  url          = {https://drive.google.com/file/d/13Dw3RO1ZhF3vtLr9TyJGhJkF7wz8DrjC},
+  doi          = {10.1007/978-3-031-16446-0\_20},
+  timestamp    = {Tue, 13 Dec 2022 14:39:06 +0100},
+  biburl       = {https://dblp.org/rec/conf/miccai/TianLEN22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {We propose LiftReg, a 2D/3D deformable registration approach. LiftReg is a deep registration framework which is trained using sets of digitally reconstructed radiographs (DRR) and computed tomography (CT) image pairs. By using simulated training data, LiftReg can use a high-quality CT-CT image similarity measure, which helps the network to learn a high-quality deformation space. To further improve registration quality and to address the inherent depth ambiguities of very limited angle acquisitions, we propose to use features extracted from the backprojected 2D images and a statistical deformation model. We test our approach on the DirLab lung registration dataset and show that it outperforms an existing learning-based pairwise registration approach.},
+  keywords = {tomosynthesis,CT,2D/3D,registration,MICCAI,lung}
+}
+
+@inproceedings{DBLP:conf/nips/GrafZRNK22,
+  author       = {Florian Graf and
+                  Sebastian Zeng and
+                  Bastian Rieck and
+                  Marc Niethammer and
+                  Roland Kwitt},
+  title        = {On Measuring Excess Capacity in Neural Networks},
+  booktitle    = {NeurIPS},
+  year         = {2022},
+  url          = {https://drive.google.com/file/d/1O9LlGse4ZDWBEjvBKBDxDfTFfFkRVmRo},
+  timestamp    = {Thu, 11 May 2023 17:08:21 +0200},
+  biburl       = {https://dblp.org/rec/conf/nips/GrafZRNK22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {We study the excess capacity of deep networks in the context of supervised classification. That is, given a capacity measure of the underlying hypothesis class – in our case, empirical Rademacher complexity – to what extent can we (a priori) constrain this class while retaining an empirical error on a par with the unconstrained regime? To assess excess capacity in modern architectures (such as residual networks), we extend and unify prior Rademacher complexity bounds to accommodate function composition and addition, as well as the structure of convolutions. The capacitydriving terms in our bounds are the Lipschitz constants of the layers and an (2, 1) group norm distance to the initializations of the convolution weights. Experiments on benchmark datasets of varying task difficulty indicate that (1) there is a substantial amount of excess capacity per task, and (2) capacity can be kept at a surprisingly similar level across tasks. Overall, this suggests a notion of compressibility with respect to weight norms, complementary to classic compression via weight pruning. Source code is available at https://github.com/rkwitt/excess_capacity.},
+  keywords={deep learning,capacity,generalization,NeurIPS}
+}
+
+@inproceedings{DBLP:conf/nips/XuNR22,
+  author       = {Zhenlin Xu and
+                  Marc Niethammer and
+                  Colin Raffel},
+  title        = {Compositional Generalization in Unsupervised Compositional Representation
+                  Learning: {A} Study on Disentanglement and Emergent Language},
+  booktitle    = {NeurIPS},
+  year         = {2022},
+  url          = {https://arxiv.org/abs/2210.00482},
+  timestamp    = {Thu, 11 May 2023 17:08:21 +0200},
+  biburl       = {https://dblp.org/rec/conf/nips/XuNR22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Deep learning models struggle with compositional generalization, i.e. the ability to recognize or generate novel combinations of observed elementary concepts. In hopes of enabling compositional generalization, various unsupervised learning algorithms have been proposed with inductive biases that aim to induce compositional structure in learned representations (e.g. disentangled representation and emergent language learning). In this work, we evaluate these unsupervised learning algorithms in terms of how well they enable compositional generalization. Specifically, our evaluation protocol focuses on whether or not it is easy to train a simple model on top of the learned representation that generalizes to new combinations of compositional factors. We systematically study three unsupervised representation learning algorithms - β-VAE, β-TCVAE, and emergent language (EL) autoencoders - on two datasets that allow directly testing compositional generalization. We find that directly using the bottleneck representation with simple models and few labels may lead to worse generalization than using representations from layers before or after the learned representation itself. In addition, we find that the previously proposed metrics for evaluating the levels of compositionality are not correlated with actual compositional generalization in our framework. Surprisingly, we find that increasing pressure to produce a disentangled representation produces representations with worse generalization, while representations from EL models show strong compositional generalization. Taken together, our results shed new light on the compositional generalization behavior of different unsupervised learning algorithms with a new setting to rigorously test this behavior, and suggest the potential benefits of delevoping EL learning algorithms for more generalizable representations.},
+  keywords = {deep learning,compositionality,NeurIPS}
+}
+
+@article{DBLP:journals/corr/abs-2206-05897,
+  author       = {Lin Tian and
+                  Hastings Greer and
+                  Fran{\c{c}}ois{-}Xavier Vialard and
+                  Roland Kwitt and
+                  Ra{\'{u}}l San Jos{\'{e}} Est{\'{e}}par and
+                  Marc Niethammer},
+  title        = {GradICON: Approximate Diffeomorphisms via Gradient Inverse Consistency},
+  journal      = {CoRR},
+  volume       = {abs/2206.05897},
+  year         = {2022},
+  url          = {https://drive.google.com/file/d/1j8u5n50knQUxhnHp1OMGEwsl8CX-lODX},
+  doi          = {10.48550/arXiv.2206.05897},
+  eprinttype    = {arXiv},
+  eprint       = {2206.05897},
+  timestamp    = {Tue, 21 Mar 2023 21:04:57 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2206-05897.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {We present an approach to learning regular spatial transformations between image pairs in the context of medical image registration. Contrary to optimization-based registration techniques and many modern learning-based methods, we do not directly penalize transformation irregularities but instead promote transformation regularity via an inverse consistency penalty. We use a neural network to predict a map between a source and a target image as well as the map when swapping the source and target images. Different from existing approaches, we compose these two resulting maps and regularize deviations of the Jacobian of this composition from the identity matrix. This regularizer – GradICON – results in much better convergence when training registration models compared to promoting inverse consistency of the composition of maps directly while retaining the desirable implicit regularization effects of the latter. We achieve state-of-the-art registration performance on a variety of real-world medical image datasets using a single set of hyperparameters and a single non-dataset-specific training protocol. Code is available at https://github.com/uncbiag/ICON}.},
+  keywords = {CVPR,registration,gradient inverse consistency,lung,knee,brain}
+}
+
+@inproceedings{DBLP:conf/iccv/DingHLN21,
+  author       = {Zhipeng Ding and
+                  Xu Han and
+                  Peirong Liu and
+                  Marc Niethammer},
+  title        = {Local Temperature Scaling for Probability Calibration},
+  booktitle    = {2021 {IEEE/CVF} International Conference on Computer Vision, {ICCV}
+                  2021, Montreal, QC, Canada, October 10-17, 2021},
+  pages        = {6869--6879},
+  publisher    = {{IEEE}},
+  year         = {2021},
+  url          = {https://drive.google.com/file/d/1XDPwmr4iBZaY06OebVhKqwD_ZaARBL8X},
+  doi          = {10.1109/ICCV48922.2021.00681},
+  timestamp    = {Fri, 11 Mar 2022 10:01:59 +0100},
+  biburl       = {https://dblp.org/rec/conf/iccv/DingHLN21.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
   abstract = {For semantic segmentation, label probabilities are often uncalibrated as they are typically only the by-product of a segmentation task. Intersection over Union (IoU) and Dice score are often used as criteria for segmentation success, while metrics related to label probabilities are rarely explored. On the other hand, probability calibration approaches have been studied, which aim at matching probability outputs with experimentally observed errors, but they mainly focus on classification tasks, not on semantic segmentation. Thus, we propose a learning-based calibration method that focuses on multi-label semantic segmentation. Specifically, we adopt a tree-like convolution neural network to predict local temperature values for probability calibration. One advantage of our approach is that it does not change prediction accuracy, hence allowing for calibration as a post-processing step. Experiments on the COCO and LPBA40 datasets demonstrate improved calibration performance over different metrics. We also demonstrate the performance of our method for multi-atlas brain segmentation from magnetic resonance images.},
   keywords = {ICCV,probability calibration,segmentation}
+}
+
+
+@article{DBLP:journals/corr/abs-2210-11006,
+  author       = {Qin Liu and
+                  Zhenlin Xu and
+                  Gedas Bertasius and
+                  Marc Niethammer},
+  title        = {SimpleClick: Interactive Image Segmentation with Simple Vision Transformers},
+  journal      = {CoRR},
+  volume       = {abs/2210.11006},
+  year         = {2022},
+  url          = {https://doi.org/10.48550/arXiv.2210.11006},
+  doi          = {10.48550/arXiv.2210.11006},
+  eprinttype    = {arXiv},
+  eprint       = {2210.11006},
+  timestamp    = {Tue, 25 Oct 2022 14:25:08 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2210-11006.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Click-based interactive image segmentation aims at extracting objects with a limited user clicking. A hierarchical backbone is the de-facto architecture for current methods. Recently, the plain, non-hierarchical Vision Transformer (ViT) has emerged as a competitive backbone for dense prediction tasks. This design allows the original ViT to be a
+foundation model that can be finetuned for downstream tasks without redesigning a hierarchical backbone for pretraining. Although this design is simple and has been proven effective, it has not yet been explored for interactive image segmentation. To fill this gap, we propose SimpleClick, the first interactive segmentation method that leverages a plain backbone. Based on the plain backbone, we introduce a symmetric patch embedding layer that encodes clicks into the backbone with minor modifications to the backbone itself. With the plain backbone pretrained as a masked autoencoder (MAE), SimpleClick achieves state-of-theart performance. Remarkably, our method achieves 4.15 NoC@90 on SBD, improving 21.8\% over the previous best result. Extensive evaluation on medical images demonstrates the generalizability of our method. We further develop an extremely tiny ViT backbone for SimpleClick and provide a detailed computational analysis, highlighting its suitability as a practical annotation tool.},
+  keywords = {deep learning,segmentation,interactive}
+}
+
+@inproceedings{DBLP:conf/cvpr/LiuTZALN21,
+  author       = {Peirong Liu and
+                  Lin Tian and
+                  Yubo Zhang and
+                  Stephen R. Aylward and
+                  Yueh Z. Lee and
+                  Marc Niethammer},
+  title        = {Discovering Hidden Physics Behind Transport Dynamics},
+  booktitle    = {{IEEE} Conference on Computer Vision and Pattern Recognition, {CVPR}
+                  2021, virtual, June 19-25, 2021},
+  pages        = {10082--10092},
+  publisher    = {Computer Vision Foundation / {IEEE}},
+  year         = {2021},
+  url          = {https://drive.google.com/file/d/1Egl7mcuvgwpE_Owbb8P5h1KrhdRHVYP7},
+  doi          = {10.1109/CVPR46437.2021.00995},
+  timestamp    = {Tue, 29 Nov 2022 14:53:03 +0100},
+  biburl       = {https://dblp.org/rec/conf/cvpr/LiuTZALN21.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Transport processes are ubiquitous. They are, for example, at the heart of optical flow approaches; or of perfusion imaging, where blood transport is assessed, most com-
+monly by injecting a tracer. An advection-diffusion equation is widely used to describe these transport phenomena. Our goal is estimating the underlying physics of advection-diffusion equations, expressed as velocity and diffusion tensor fields. We propose a learning framework (YETI) building on an auto-encoder structure between 2D and 3D image time-series, which incorporates the advection-diffusion model. To help with identifiability, we develop an advection-diffusion simulator which allows pre-training of our model by supervised learning using the velocity and diffusion tensor fields. Instead of directly learning these velocity and diffusion tensor fields, we introduce representations that assure incompressible flow and symmetric positive semi-definite diffusion fields and demonstrate the additional benefits of these representations on improving estimation accuracy. We further use transfer learning to apply YETI on a public brain magnetic resonance (MR) perfusion dataset of stroke patients and show its ability to successfully distinguish stroke lesions from normal brain regions via the estimated velocity and diffusion tensor fields.},
+  keywords = {perfusion,stroke,CVPR}
+
 }
 
 @inproceedings{DBLP:conf/icml/GrafHNK21,

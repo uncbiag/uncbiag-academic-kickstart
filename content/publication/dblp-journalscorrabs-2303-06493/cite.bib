@@ -1,0 +1,23 @@
+@article{DBLP:journals/corr/abs-2303-06493,
+ abstract = {Interactive volume segmentation can be approached via two decoupled modules: interaction-to-segmentation and segmentation propagation. Given a medical volume, a user first segments a slice (or several slices) via the interaction module and then propagates the segmentation(s) to the remaining slices. The user may repeat this process multiple times until a sufficiently high volume segmentation quality is achieved. However, due to the lack of human correction during propagation, segmentation errors are prone to accumulate in the intermediate slices and may lead to sub-optimal performance. To alleviate this issue, we propose a simple yet effective cycle consistency loss that regularizes an intermediate segmentation by referencing the accurate segmentation in the starting slice. To this end, we introduce a backward segmentation path that propagates the intermediate segmentation back to the starting slice using the same propagation network. With cycle consistency training, the propagation network is better regularized than in standard forward-only training approaches. Evaluation results on challenging benchmarks such as AbdomenCT-1k and OAI-ZIB demonstrate the effectiveness of our method. To the best of our knowledge, we are the first to explore cycle consistency learning in interactive volume segmentation.},
+ author = {Qin Liu and
+Meng Zheng and
+Benjamin Planche and
+Zhongpai Gao and
+Terrence Chen and
+Marc Niethammer and
+Ziyan Wu},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/journals/corr/abs-2303-06493.bib},
+ doi = {10.48550/arXiv.2303.06493},
+ eprint = {2303.06493},
+ eprinttype = {arXiv},
+ journal = {CoRR},
+ keywords = {deep learning,segmentation,interactive},
+ timestamp = {Thu, 16 Mar 2023 16:04:57 +0100},
+ title = {Exploring Cycle Consistency Learning in Interactive Volume Segmentation},
+ url = {https://doi.org/10.48550/arXiv.2303.06493},
+ volume = {abs/2303.06493},
+ year = {2023}
+}
+
