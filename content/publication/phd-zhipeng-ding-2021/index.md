@@ -1,0 +1,14 @@
+---
+title: "Toward Solving Groupwise Medical Image Analysis Problems with Deep Learning"
+date: 2022-01-01
+publishDate: 2023-06-19T17:36:28.037618Z
+authors: ["Zhipeng Ding"]
+publication_types: ["7"]
+abstract: "Image regression, atlas building, and multi-atlas segmentation are three groupwise medical image analysis problems extended from image registration. These three problems are challenging because of the difficulty in establishing spatial correspondences and the associated high computational cost. Specifically, most previous methods are computationally costly as they are optimization-based approaches. Hence fast and accurate approaches are highly desirable. This dissertation addresses the following problems concerning the three groupwise medical image analysis problems: (1) fast and reliable geodesic regression for image time series; (2) joint atlas building and diffeomorphic registration learning; (3) efficient and accurate label fusion for multi-atlas segmentation; and (4) spatially localized probability calibration for semantic segmentation networks. Specifically, the contributions in this thesis are as follows: (1) A fast predictive simple geodesic regression approach is proposed to capture the frequently subtle deformation trends of longitudinal image data. (2) A new deep learning model that jointly builds an atlas and learns the diffeomorphic registrations in both the atlas-to-image and the image-to-atlas directions is developed. (3) A novel deep learning label fusion method (VoteNet) that locally identifies sets of trustworthy atlases is presented; and several ways to improve the performance under the VoteNet based multi-atlas segmentation framework are explored. (4) A learning-based local temperature scaling method that predicts a separate temperature scale for each pixel/voxel is designed. The resulting post-processing approach is accuracy preserving and is theoretically guaranteed to be effective."
+featured: false
+publication: ""
+tags: ["registration", "machine learning"]
+url_pdf: "https://drive.google.com/file/d/1jGj3vlXm06yYmDm60Y7PiP6l7Ok5s2n3"
+doi: "https://doi.org/10.17615/q46a-nm90"
+---
+
