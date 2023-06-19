@@ -28,7 +28,7 @@ education:
   courses:
   - course: PhD in Computer Science
     institution: UNC Chapel Hill
-    year: Expected 2020
+    year: 2020
   - course: MSc in Electrical Engineering
     institution: Northwestern University
     year: 2012
@@ -68,4 +68,4 @@ user_groups:
 - Alumni
 ---
 
-Xu Han is a graduate student in computer science. He works on image registration approaches for images with pathologies.
+Xu Han finished his Ph.D. in computer science in 2020. He worked on image registration approaches for images with pathologies.

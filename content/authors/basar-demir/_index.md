@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Yifeng Shi
+title: Basar Demir
 
 # Username (this should match the folder name)
 authors:
-- "Yifeng Shi"
+- "Basar Demir"
 
 # Is this the primary user of the site?
 superuser: false
@@ -18,19 +18,18 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research is in machine learning. So far I have been focusing on machine learning approaches for set-valued data and approaches for clustering with side-information.
+bio: My research is in medical image analysis.
 
 interests:
+- Image Registration
+- Image Segmentation
 - Machine Learning
 
 education:
   courses:
-  - course: PhD in Computer Science
-    institution: UNC Chapel Hill
-    year: 2023
-  - course: MSc in Statistics
-    institution: University of Chicago
-    year: 2018
+  - course: BSc in Computer Engineering
+    institution: Istanbul Technical University
+    year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -45,10 +44,10 @@ social:
 #  link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=u9mELXIAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/uncbiag
+  link: https://scholar.google.com/citations?user=Rr6nOIEAAAAJ&hl=en&oi=ao
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/BasarDemir
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -61,7 +60,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Alumni
+- Graduate Students
 ---
 
-Yifeng Shi finished his PhD in Computer Science in 2023. He worked on machine learning approaches for clustering and classification with breast cancer as an application focus. He currently works for Waymo.
+Basar Demir is a graduate student in computer science. 

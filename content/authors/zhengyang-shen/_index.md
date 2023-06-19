@@ -60,7 +60,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
+- Alumni
 ---
 
-[Zhengyang Shen](http://www.cs.unc.edu/~zyshen/) is a graduate student in computer science. He works on fast deep learning approaches for image registration.
+[Zhengyang Shen](http://www.cs.unc.edu/~zyshen/) completed his PhD in Computer Science in 2022. He worked on fast deep learning approaches for image and pointset registration. He is currently works at Google.

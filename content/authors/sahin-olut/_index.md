@@ -65,4 +65,4 @@ user_groups:
 - Alumni
 ---
 
-Sahin Olut is a graduate student in computer science. He works on image registration.
+Sahin Olut finished his M.Sc. in computer science 2021. He worked on image registration.

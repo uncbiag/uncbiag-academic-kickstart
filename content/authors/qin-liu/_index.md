@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Yifeng Shi
+title: Qin Liu
 
 # Username (this should match the folder name)
 authors:
-- "Yifeng Shi"
+- "Qin Liu"
 
 # Is this the primary user of the site?
 superuser: false
@@ -18,19 +18,22 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research is in machine learning. So far I have been focusing on machine learning approaches for set-valued data and approaches for clustering with side-information.
+bio: My research is in medical image analysis.
 
 interests:
 - Machine Learning
+- Medical Image Computing
+- Computer Vision
+- Interactive Segmentation
 
 education:
   courses:
-  - course: PhD in Computer Science
-    institution: UNC Chapel Hill
-    year: 2023
-  - course: MSc in Statistics
-    institution: University of Chicago
-    year: 2018
+  - course: MSc in Biomedical Engineering
+    institution: Shanghai Jiao Tong University 
+    year: 2016
+  - course: BSc in Communication Engineering
+    institution: Fujian University of Technology
+    year: 2013
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -45,10 +48,10 @@ social:
 #  link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=u9mELXIAAAAJ
+  link: https://scholar.google.com/citations?user=o209D9kAAAAJ&hl=en&oi=ao
 - icon: github
   icon_pack: fab
-  link: https://github.com/uncbiag
+  link: https://github.com/qinliuliuqin
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -61,7 +64,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Alumni
+- Graduate Students
 ---
 
-Yifeng Shi finished his PhD in Computer Science in 2023. He worked on machine learning approaches for clustering and classification with breast cancer as an application focus. He currently works for Waymo.
+Qin Liu is a graduate student in computer science focusing on machine learning, medical image computing, computer vision, and interactive approaches for image segmentation. Learn more [here](https://sites.google.com/cs.unc.edu/qinliu/home).

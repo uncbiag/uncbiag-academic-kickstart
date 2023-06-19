@@ -27,6 +27,9 @@ interests:
 
 education:
   courses:
+  - course: PhD in Computer Science
+    institution: UNC Chapel Hill
+    year: 2022
   - course: BSc in Computer Science and BSc in Mathematics
     institution: University of Iowa
     year: 2016
@@ -63,7 +66,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
+- Alumni
 ---
 
-Zhipeng Ding is a graduate student in computer science. He works on image segmentation, image registration, and multi-atlas segmentation approaches.
+Zhipeng Ding completed his PhD in CS in 2022. He worked on image segmentation, image registration, and multi-atlas segmentation approaches. He currently works at Amazon.

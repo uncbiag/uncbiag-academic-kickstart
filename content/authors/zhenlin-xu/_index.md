@@ -29,7 +29,7 @@ education:
   courses:
   - course: PhD in Computer Science
     institution: UNC Chapel Hill
-    year: Expected 2021
+    year: 2022
   - course: MSc in Imaging Science
     institution: Rochester Institute of Technology
     year: 2016
@@ -71,7 +71,7 @@ email: "zhenlinx@cs.unc.edu"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
+- Alumni
 ---
 
-Zhenlin Xu is a Ph.D. student in computer science. He works on deep learning approaches for image registration, image segmentation, and learning robust and generalizable visual representation. See more about him [here](https://wildphoton.github.io/).
+Zhenlin Xu finished his Ph.D. in computer science in 2022. He worked on deep learning approaches for image registration, image segmentation, and learning robust and generalizable visual representation. See more about him [here](https://wildphoton.github.io/). He currently works at Amazon.
