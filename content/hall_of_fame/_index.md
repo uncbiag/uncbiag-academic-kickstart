@@ -24,18 +24,25 @@ header:
     <th>Year</th>
   </tr>
   <tr>
-    <td>11</td>
+    <td>12</td>
     <td>Peirong</td>
     <td>Liu</td>
     <td>Perfusion Imaging via Mass Transport</td>
     <td>2023</td>
   </tr>
   <tr>
-    <td>10</td>
+    <td>11</td>
     <td>Yifeng</td>
     <td>Shi</td>
     <td>Representation Learning with Additional Structures</td>
     <td>2023</td>
+  </tr>
+    <tr>
+    <td>10</td>
+    <td>Zhenlin</td>
+    <td>Xu</td>
+    <td>{{<link_cite zx22 "Towards Deep Visual Learning in the Wild: Data-efficiency, Robustness and Generalization">}}</td>
+    <td>2022</td>
   </tr>
   <tr>
     <td>9</td>
@@ -102,6 +109,7 @@ header:
   </tr>
 </table>
 
+{{<putbib "/publication/phd-zhenlin-xu-2022/index.md" "zx22" 3>}}
 {{<putbib "/publication/phd-zhengyang-shen-2022/index.md" "zs22" 3>}}
 {{<putbib "/publication/phd-zhipeng-ding-2021/index.md" "zd21" 3>}}
 {{<putbib "/publication/phd-xu-han-2020/index.md" "xh20" 3>}}
