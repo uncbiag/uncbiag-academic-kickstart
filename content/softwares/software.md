@@ -89,6 +89,10 @@ We open-sourced a variety of software packages. Many of them focusing on image r
     <th>Description</th>
   </tr>
   <tr>
+    <td><a href="https://github.com/uncbiag/SimpleClick">SimpleClick</td> 
+    <td>Interactive image segmentation</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/uncbiag/Aladdin">Aladdin</td> 
     <td>Deep-learning based atlas building</td>
   </tr>

@@ -1,0 +1,22 @@
+@article{DBLP:journals/corr/abs-2206-05897,
+ abstract = {We present an approach to learning regular spatial transformations between image pairs in the context of medical image registration. Contrary to optimization-based registration techniques and many modern learning-based methods, we do not directly penalize transformation irregularities but instead promote transformation regularity via an inverse consistency penalty. We use a neural network to predict a map between a source and a target image as well as the map when swapping the source and target images. Different from existing approaches, we compose these two resulting maps and regularize deviations of the Jacobian of this composition from the identity matrix. This regularizer - GradICON - results in much better convergence when training registration models compared to promoting inverse consistency of the composition of maps directly while retaining the desirable implicit regularization effects of the latter. We achieve state-of-the-art registration performance on a variety of real-world medical image datasets using a single set of hyperparameters and a single non-dataset-specific training protocol. Code is available at https://github.com/uncbiag/ICON.},
+ author = {Lin Tian and
+Hastings Greer and
+François-Xavier Vialard and
+Roland Kwitt and
+Raúl San José Estépar and
+Marc Niethammer},
+ bibsource = {dblp computer science bibliography, https://dblp.org},
+ biburl = {https://dblp.org/rec/journals/corr/abs-2206-05897.bib},
+ doi = {10.48550/arXiv.2206.05897},
+ eprint = {2206.05897},
+ eprinttype = {arXiv},
+ journal = {CVPR},
+ keywords = {CVPR,registration,gradient inverse consistency,lung,knee,brain},
+ timestamp = {Tue, 21 Mar 2023 21:04:57 +0100},
+ title = {GradICON: Approximate Diffeomorphisms via Gradient Inverse Consistency},
+ url = {https://drive.google.com/file/d/1j8u5n50knQUxhnHp1OMGEwsl8CX-lODX},
+ volume = {abs/2206.05897},
+ year = {2023}
+}
+
