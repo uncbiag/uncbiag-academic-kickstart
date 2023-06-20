@@ -62,4 +62,4 @@ user_groups:
 - Alumni
 ---
 
-Yi Hong worked on shape analysis approaches and image registration. She is now an [Assistant Professor at the University of Georgia](http://cobweb.cs.uga.edu/~yihong/).
+Yi Hong worked on shape analysis approaches and image registration. She is now a [Tenure Track Associate Professor at Shanghai Jiao Tong University](https://cs.sjtu.edu.cn/~yihong/index.html)
