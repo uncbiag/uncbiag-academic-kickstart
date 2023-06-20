@@ -62,4 +62,4 @@ user_groups:
 - Alumni
 ---
 
-Tian Cao worked on image registration approaches with an emphais on correlative microscopy and multimodal registration. He currently works at Houzz.
+Tian Cao worked on image registration approaches with an emphais on correlative microscopy and multimodal registration. He currently works at Apple.
