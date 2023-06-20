@@ -42,7 +42,12 @@ slides: ""
 This software uses a learning framework (YETI) building on an auto-encoder structure between 2D and 3D image time-series, which incorporates an advection-diffusion model to capture blood perfusion. To help with identifiability, the deep learning model is trained via simulated data from an advection-diffusion simulator. Instead of directly learning the velocity and diffusion tensor fields of the advection diffusion equation, we use representations that
 assure incompressible flow and symmetric positive semidefinite diffusion fields. 
 
+The YETI repository is currently still private. Stay tuned. 
+
+<!--
 The YETI repository can be found here:
 https://github.com/uncbiag/YETI-General
+-->
+
 
 

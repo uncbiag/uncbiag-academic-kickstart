@@ -41,7 +41,11 @@ slides: ""
 ---
 The project aims to provide an analytical for measuring the normality of children's airways. We build an age-based atlas on multiple CT images of normal subjects. First, we use a segmentation model to extract the airway. Then, the cross-sectional areas over the airway's length are computed, and we use them as the main feature for the analysis. Having normal subjects, we can construct the weighted percentiles of cross-sectional areas, and the extreme percentiles (5%, 95%) can serve as proper anomaly detection boundaries.
 
+The Pediatric Airway Atlas repository is currently still private. Stay tuned.
+
+<!--
 The Pediatric Airway Atlas repository can be found here:
 https://github.com/uncbiag/pediatric_airway_atlas
+-->
 
 

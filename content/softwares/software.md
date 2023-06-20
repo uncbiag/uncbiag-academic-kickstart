@@ -113,7 +113,7 @@ We open-sourced a variety of software packages. Many of them focusing on image r
     <td>Image analysis tools for the Osteoarthritis Initiative image dataset</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/uncbiag/pediatric_airway_atlas">Pediatric Airway Atlas</td>
+    <td>Pediatric Airway Atlas</td>
     <td>Software tools to build and query an atlas of the upper airway in children</td>
   </tr>
   <tr>
@@ -125,11 +125,11 @@ We open-sourced a variety of software packages. Many of them focusing on image r
     <td>A deep learning label fusion approach for multi-atlas segmentation</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/uncbiag/YETI-General">YETI</td>
+    <td>YETI</td>
     <td>A deep learning approach for perfusion imaging</td>
   </tr>
-  <tr>
-    <td></td>
-    <td></td>
-  </tr>
 </table>
+<!--
+     <td><a href="https://github.com/uncbiag/YETI-General">YETI</td>
+     <td><a href="https://github.com/uncbiag/pediatric_airway_atlas">Pediatric Airway Atlas</td>
+-->
