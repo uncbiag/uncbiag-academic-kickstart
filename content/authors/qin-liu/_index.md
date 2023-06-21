@@ -18,12 +18,12 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research is in medical image analysis.
+bio: My research is in machine learning and computer vision.
 
 interests:
 - Machine Learning
-- Medical Image Computing
 - Computer Vision
+- Medical Image Computing
 - Interactive Segmentation
 
 education:
@@ -31,9 +31,6 @@ education:
   - course: MSc in Biomedical Engineering
     institution: Shanghai Jiao Tong University 
     year: 2016
-  - course: BSc in Communication Engineering
-    institution: Fujian University of Technology
-    year: 2013
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -42,7 +39,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:qinliu19@cs.unc.edu'  # For a direct email link, use "mailto:test@example.org".
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
@@ -67,4 +64,4 @@ user_groups:
 - Graduate Students
 ---
 
-Qin Liu is a graduate student in computer science focusing on machine learning, medical image computing, computer vision, and interactive approaches for image segmentation. Learn more [here](https://sites.google.com/cs.unc.edu/qinliu/home).
+Qin Liu is a graduate student in computer science focusing on computer vision and interactive approaches for image segmentation. [Homepage](https://sites.google.com/cs.unc.edu/qinliu/home).
