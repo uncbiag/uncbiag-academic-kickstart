@@ -31,8 +31,8 @@ Congratulations to {{% mention "zhipeng-ding" %}}, {{% mention "hastings-greer" 
 
 ## ICCV 2021
 
-{{<putbib "/publication/dblp-journalscorrabs-2008-05105/index.md" "zd21" 3>}}
-{{<putbib "/publication/dblp-journalscorrabs-2105-04459/index.md" "hg21" 3>}}
+{{<putbib "/publication/dblp-conficcv-ding-hln-21/index.md" "zd21" 3>}}
+{{<putbib "/publication/dblp-conficcv-greer-kvn-21/index.md" "hg21" 3>}}
 
 ## CVPR 2021
 
