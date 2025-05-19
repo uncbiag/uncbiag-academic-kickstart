@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Graduate Student in Computer Science
+role: Ph.D. in Computer Science
 
 # Organizations/Affiliations
 organizations:
@@ -61,7 +61,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
+- Alumni
 ---
 
-Qin Liu is a graduate student in computer science focusing on computer vision and interactive approaches for image segmentation. [Homepage](https://sites.google.com/cs.unc.edu/qinliu/home).
+Qin Liu completed his PhD in Computer Science in 2025. He worked on interactive segmentation for images, videos, and medical volumes. [Homepage](https://sites.google.com/cs.unc.edu/qinliu/home).
